@@ -1,0 +1,2443 @@
+;assignee;components;created;creator;Customer Request Type;Request participants;Time to resolution;Identificador de Cliente;Identificador de OT;Cola de Peticiones;Confirmar Operación OT;Tecnologia;Cola de Entrada;Cola Nivel 2;Fecha Cita;Contrata;Tiempo hasta resolución;Tiempo hasta primera respuesta;Prefijo Configuración;Averías Masivas;Participantes;Fecha 2º Diagnóstico;Use Service Desk Portal;No es posible crear ticket;Grupo Asignable;Tipificación Apertura;Severidad;Elemento de Red;Servicios Afectados;Duración Estimada (horas);Clientes Impactados;OLT;CTO;Código Postal;Elemento Core;Interconexión;Tipificación Cierre;Descripción Cierre;Time in Queue;Resolved Ticket;Motivo de Apertura de Retencion;Motivos de Resolución;Motivo Resolución Portabilidad;Buzón Redes;Nombre;Apellido 1;Apellido 2;Tipo de vía;Nombre de vía;Núm. Vía;Complemento vía;Municipio;Población;Provincia;Teléfono Móvil usuario;Motivo de Apertura a Jazztel;Código MIGA;Observaciones;Parámetros de red;Información adicional;Realizar pruebas conjuntas;Fecha y Hora de pruebas;Nombre del técnico;Apellido 1 del técnico;Apellido 2 del técnico;Teléfono fijo del técnico;Teléfono móvil del técnico;Email del técnico;Motivo;Motivo de reapertura;Observaciones Diagnóstico;Motivo de disconformidad;Código Postal;Motivo de Apertura FTTH a Jazztel;Email Informador;Prueba;Motivos de Apertura Activación SVAs;SLA 6 horas Activación SVA FTTH;Flag Notificación No Validez del Cierre;Descripción;Cola de resolución;Motivo de Cierre Averías xDSL;Motivo de Cierre Averías FTTH;Motivo de apertura;Tipificación;Actuación del técnico;Facturable;Titulo Nueva Incidencia;Modelo Router;Modelo Router (a rellenar por el Bus);Motivo de la Reclamación Provisión;Localización pruebas conjuntas;Dialog Jazztel;Motivo de cancelación;Cola HelpDesk;Tiempo hasta el cierre automático;Motivo de Reapertura;Última entrada en SAC 1er Nivel;Última salida de SAC 1er Nivel;Tiempo en SAC 1er Nivel;Última entrada en SAT 2º Nivel;Última salida de SAT 2º Nivel;Tiempo en SAT 2º Nivel Avería;Última entrada en Redes;Última salida de Redes;Tiempo en Redes;Tiempo en SAC 1er Nivel Acumulado;Tiempo en SAT 2º Nivel Avería Acumulado;Tiempo en Redes Acumulado;Última entrada en Magtel;Última salida de Magtel;Tiempo en Magtel;Última salida de Salto;Última entrada en Salto;Tiempo en Salto;Última entrada en Zener;Última salida de Zener;Tiempo en Zener;prueba;Número de reaperturas;Segmento Cliente;Tiempo en Magtel acumulado;Tiempo en Salto Acumulado;Tiempo en Zener Acumulado;Operador;¿Requiere Aprobacion Comercial?;Plan de Rollback;Plan de Pruebas;Nombre Contacto;Teléfono;Email;Departamento TP;¿Servicios afectados?;Servicios afectados;Clientes Afectados;Departamento Origen;Fecha/Hora Inicio;Fecha/Hora prevista de fin;Acciones para solucionar el Problema;Incluye Plan de Intervencion anexado?;Nombre de Cliente;Email Origen;Severidad Red;Origen;Motivo Resolución de Jazztel;Motivo Rechazo;Motivo Cancelacion TP;Comentario de Ejecucion;otStatus;Motivo de la Reclamación Instalación;Fecha Actualización;Actualizada por;Motivo solucion incidencia instalacion;Estado del Ticket en JZZ;Nº de OTs;Departamento Creador;Motivo de apertura de Incidencia Técnico en Cas;Portabilidad;Solución sistemas;Id del ticket Remedy;Nº de escalados a Redes;Template;RedMM;Tipificacion operacion de red;ServicioRedValidado;Estado Logística;Estimación de clientes afectados;Volumen de clientes finales afectados;Fecha/Hora de inicio de la incidencia de red;Fecha/Hora de resolución de la incidencia de red;description;duedate;environment;fixVersions;id;issuelinks;issuetype;key;labels;lastViewed;priority;project;reporter;resolution;resolutiondate;security;status;subtasks;summary;updated;versions;watches;workratio;timeval_created;timeval_updated;timeval_diff;fmt_created;fmt_updated;fmt_timediff;Tramo Duracion;Antigüedad;Averia/Config;Sistema Origen
+0;;;2017-01-30T16:46:32.000+0100;sergio.hermoso;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;VLAN 2595 caída.;Media;VLAN 2595;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;false;;false;;;;;;"ACCESO xDSL
+CAIDA TOTAL ENLACE
+RED OPERADOR TERCEROS
+Hora Inicio : 30/01/17 15:25:00
+
+Descripción Problema : VOZ Y DATOS FU
+MORON DE LA FRONTERA(SEVILLA)
+Servicios Afectados : VOZ Y DATOS FU";;;;613596;;Avería Masiva;MAS-569827;;;Medium;MASTicketing;sergio.hermoso;;;;CREADA;;AVERIA_MASIVA_MAS-569827;2017-01-30T16:48:32.000+0100;;;-1;2017-01-30 16:46:32;2017-01-30 16:48:32;0 days 00:02:00.000000000;30/01/2017 16:46:32;30/01/2017 16:48:32;0 days 00:02:00;<1D;0,001388888888888889;Averia;jira
+1;;;2017-01-29T17:49:27.000+0100;fernando.merino;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;BANYERES DE MARIOLA ;Alta;ACCESO xDSL;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;false;;false;;;;;;"Buenas tardes,
+
+Os remitimos la siguiente incidencia Masiva que afecta a servicios Masmovil:
+ACCESO xDSL
+CAIDA TOTAL ENLACE
+RED OPERADOR TERCEROS
+Hora Inicio : 29/01/17 16:28:00
+
+BANYERES DE MARIOLA
+
+Saludos,";;;;610200;;Avería Masiva;MAS-566775;;;Medium;MASTicketing;fernando.merino;Resuelta;2017-01-30T10:46:09.000+0100;;Resuelta;;AVERIA_MASIVA_MAS-566775;2017-01-30T10:46:09.000+0100;;;-1;2017-01-29 17:49:27;2017-01-30 10:46:09;0 days 16:56:42.000000000;29/01/2017 17:49:27;30/01/2017 10:46:09;0 days 16:56:42;<1D;0,7060416666666667;Averia;jira
+2;;;2017-01-29T17:32:25.000+0100;fernando.merino;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;parada del inversor Datacenter Donostia;Media;problema en el IDC de Donosti,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;false;;false;;;;;;"Avisan de que hay un problema en el IDC de Donosti, con un SAI, está alarmado. 
+
+La alarma que aparece es ""parada del inversor""
+
+Se envía a la empresa EMERALD para que haga el mantenimiento oportuno.
+
+Nos indican que en una hora estarán allí.
+
+Saludos.";;;;610185;;Avería Masiva;MAS-566763;;;Medium;MASTicketing;fernando.merino;Resuelta;2017-01-29T18:47:44.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-566763;2017-01-29T18:47:46.000+0100;;;-1;2017-01-29 17:32:25;2017-01-29 18:47:46;0 days 01:15:21.000000000;29/01/2017 17:32:25;29/01/2017 18:47:46;0 days 01:15:21;<1D;0,05232638888888889;Averia;jira
+3;;;2017-01-27T14:04:18.000+0100;sergio.hermoso;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;VLAN 2826 caída.;Media;VLAN 2826;VOZ Y DATOS;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;false;;false;;;;;;"VLAN 2826 caída.
+Añadimos VLAN 2823 y 2825
+informadas por Jazztel en ticket: 000000003962312";;;;606704;;Avería Masiva;MAS-563512;;;Medium;MASTicketing;sergio.hermoso;Resuelta;2017-01-29T11:19:47.000+0100;;Resuelta;;AVERIA_MASIVA_MAS-563512;2017-01-29T11:19:47.000+0100;;;-1;2017-01-27 14:04:18;2017-01-29 11:19:47;1 days 21:15:29.000000000;27/01/2017 14:04:18;29/01/2017 11:19:47;1 days 21:15:29;<2D;1,8857523148148148;Averia;jira
+4;;;2017-01-26T13:29:53.000+0100;juanjose.vallejos;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;Problemas al utilizar WhatsApp movil en el servicio de cgnat;Media;CGNAT;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;false;;false;;;;;;Problemas al utilizar WhatsApp móvil en el servicio de cgnat. AL parecer el mensaje no llega al servidor de Whatsapp;;;;601754;;Avería Masiva;MAS-558960;;;Medium;MASTicketing;juanjose.vallejos;Resuelta;2017-01-27T14:23:38.000+0100;;Resuelta;;AVERIA_MASIVA_MAS-558960;2017-01-27T14:23:40.000+0100;;;-1;2017-01-26 13:29:53;2017-01-27 14:23:40;1 days 00:53:47.000000000;26/01/2017 13:29:53;27/01/2017 14:23:40;1 days 00:53:47;<2D;1,0373495370370371;Averia;jira
+5;;;2017-01-26T11:13:45.000+0100;juanjose.vallejos;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;ACCESO xDSL CAIDA TOTAL ENLACE ADST1770003GER011 SANT FELIU DE GUIXOLS;Media;vlan 3366;Servicios Afectados : FALLO VOZ Y DATOS;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;false;;false;;;;;;"ACCESO xDSL
+CAIDA TOTAL ENLACE
+CABLEADO RED
+Hora Inicio : 26/01/17 07:33:31
+Descripción Problema : .
+Servicios Afectados : FALLO VOZ Y DATOS
+VLAN ENTREGADSLAM         CENTRAL
+3366 ADST1770003GER011 SANT FELIU DE GUIXOLS";;;;600876;;Avería Masiva;MAS-558191;;;Medium;MASTicketing;juanjose.vallejos;Resuelta;2017-01-26T14:26:50.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-558191;2017-01-26T14:26:53.000+0100;;;-1;2017-01-26 11:13:45;2017-01-26 14:26:53;0 days 03:13:08.000000000;26/01/2017 11:13:45;26/01/2017 14:26:53;0 days 03:13:08;<1D;0,13412037037037036;Averia;jira
+6;;;2017-01-25T22:32:30.000+0100;jokin.cuello;;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;false;;false;;;;;;"Nos informan desde Jazztel y también desde Nivel 2.
+
+LOECHES Miga 2861004
+PARACUELLOS DEL JARAMA Miga 2811003
+VELILLA DE SAN ANTONIO Miga 2815006";;;;599944;;Avería Masiva;MAS-557363;;;Medium;MASTicketing;jokin.cuello;Resuelta;2017-01-26T04:42:24.000+0100;;Resuelta;;AVERIA_MASIVA_MAS-557363;2017-01-26T04:42:24.000+0100;;;-1;2017-01-25 22:32:30;2017-01-26 04:42:24;0 days 06:09:54.000000000;25/01/2017 22:32:30;26/01/2017 04:42:24;0 days 06:09:54;<1D;0,256875;Averia;jira
+7;;;2017-01-25T12:12:28.000+0100;jokin.cuello;;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;false;;false;;;;;;"Se detectan 40 líneas caidas de la central de Alcazares en Murcia (ADST3022002MUR011) (smartgroup 2869). Reclamado a Jazztel.
+";;;;596748;;Avería Masiva;MAS-554472;;;Medium;MASTicketing;jokin.cuello;Resuelta;2017-01-25T22:31:14.000+0100;;Resuelta;;AVERIA_MASIVA_MAS-554472;2017-01-28T14:38:00.000+0100;;;-1;2017-01-25 12:12:28;2017-01-28 14:38:00;3 days 02:25:32.000000000;25/01/2017 12:12:28;28/01/2017 14:38:00;3 days 02:25:32;<5D;3,1010648148148148;Averia;jira
+8;;;2017-01-24T13:22:40.000+0100;juanjose.vallejos;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;Acceso indirecto/preselección de Girona;Media;IMS BCN provincia de Girona;Acceso indirecto provincia Girona;;Clientes con servicio indirecto BCN;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;false;;false;;;;;;Problemas con clientes de acceso indirecto/preselección de la provincia de Girona;;;;592798;;Avería Masiva;MAS-550975;;;Medium;MASTicketing;juanjose.vallejos;Resuelta;2017-01-25T12:02:03.000+0100;;Resuelta;;AVERIA_MASIVA_MAS-550975;2017-01-25T12:02:03.000+0100;;;-1;2017-01-24 13:22:40;2017-01-25 12:02:03;0 days 22:39:23.000000000;24/01/2017 13:22:40;25/01/2017 12:02:03;0 days 22:39:23;<1D;0,9440162037037036;Averia;jira
+9;;;2017-01-24T08:45:06.000+0100;juanjose.vallejos;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;ACCESO xDSL CAIDA TOTAL ENLACE GUADIX / GRANADA;Media;VLAN 3317 - 3318 - 3319;voz y datos fu;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;false;;;;;;;;"ACCESO xDSL
+CAIDA TOTAL ENLACE
+RED OPERADOR TERCEROS
+Hora Inicio : 24/01/17 07:33:50
+Descripción Problema : FALLO VOZ Y DATOS FU
+   GUADIX / GRANADA
+   IVR SI
+Servicios Afectados  : voz y datos fu";;;;591537;;Avería Masiva;MAS-549882;;;Medium;MASTicketing;juanjose.vallejos;Resuelta;2017-01-24T20:35:02.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-549882;2017-01-24T20:35:06.000+0100;;;-1;2017-01-24 08:45:06;2017-01-24 20:35:06;0 days 11:50:00.000000000;24/01/2017 08:45:06;24/01/2017 20:35:06;0 days 11:50:00;<1D;0,4930555555555556;Averia;jira
+10;;;2017-01-19T17:17:38.000+0100;sergio.hermoso;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;ACCESO xDSL CAIDA CENTRAL ARNEDO LA RIOJA;Media;CENTRAL ARNEDO LA RIOJA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;false;;;;;;;;"ACCESO xDSL
+CAIDA TOTAL ENLACE
+RED OPERADOR TERCEROS
+Hora Inicio : 19/01/17 14:22:05
+
+Descripción Problema : CAIDA CENTRAL
+ADST2662002LAR011
+ADST2662002LAR012
+ARNEDO LA RIOJA
+Servicios Afectados : Fallo Voz y Datos";;;;580232;;Avería Masiva;MAS-539714;;;Medium;MASTicketing;sergio.hermoso;Resuelta;2017-01-19T17:20:12.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-539714;2017-01-19T17:20:14.000+0100;;;-1;2017-01-19 17:17:38;2017-01-19 17:20:14;0 days 00:02:36.000000000;19/01/2017 17:17:38;19/01/2017 17:20:14;0 days 00:02:36;<1D;0,0018055555555555555;Averia;jira
+11;;;2017-01-19T16:02:50.000+0100;sergio.hermoso;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;VLAN 3180 caída;Media;VLAN 3180;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;false;;;;;;;;VLAN 3180 caída;;;;579642;;Avería Masiva;MAS-539168;;;Medium;MASTicketing;sergio.hermoso;Resuelta;2017-01-20T10:47:21.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-539168;2017-01-25T22:49:48.000+0100;;;-1;2017-01-19 16:02:50;2017-01-25 22:49:48;6 days 06:46:58.000000000;19/01/2017 16:02:50;25/01/2017 22:49:48;6 days 06:46:58;<7D;6,282615740740741;Averia;jira
+12;;;2017-01-19T13:20:34.000+0100;juanjose.vallejos;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;CAIDA TOTAL ENLACE ADST0322001ALI011 BAÑERES DE MARIOLA;Media;VLAN 3969;"VLAN   ENTREGANOMBRE     CENTRAL
+3969    ADST0322001ALI011  BAÑERES DE MARIOLA";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;false;;;;;;;;"ACCESO xDSL
+CAIDA TOTAL ENLACE
+RED OPERADOR TERCEROS
+
+Descripción Problema : ADST0322001ALI011 Servicios Afectados : Fallo Voz y Datos FU";;;;578722;;Avería Masiva;MAS-538349;;;Medium;MASTicketing;juanjose.vallejos;Resuelta;2017-01-20T20:04:57.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-538349;2017-01-20T20:05:01.000+0100;;;-1;2017-01-19 13:20:34;2017-01-20 20:05:01;1 days 06:44:27.000000000;19/01/2017 13:20:34;20/01/2017 20:05:01;1 days 06:44:27;<2D;1,2808680555555556;Averia;jira
+13;;;2017-01-19T11:36:31.000+0100;jvalentin;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;Avería grave;Alta;ACS;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;false;;;;;;;;Problemas de incomunicacion generalizados;;;;577970;;Avería Masiva;MAS-537679;;;Medium;MASTicketing;jvalentin;Resuelta;2017-01-19T16:32:54.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-537679;2017-01-24T23:25:42.000+0100;;;-1;2017-01-19 11:36:31;2017-01-24 23:25:42;5 days 11:49:11.000000000;19/01/2017 11:36:31;24/01/2017 23:25:42;5 days 11:49:11;<7D;5,4924884259259255;Averia;jira
+14;;;2017-01-17T16:33:37.000+0100;juanjose.vallejos;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;CAIDA TOTAL ENLACE VARIAS CENTRALES;Media;VLAN 3178 - 3179 - 3176 - 3177 - 3181;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;false;;;;;;;;"ACCESO xDSL
+CAIDA TOTAL ENLACE
+RED OPERADOR TERCEROS
+Hora Inicio : 17/01/17 07:17:45
+Descripción Problema : .
+Servicios Afectados : voz y datos
+VLAN            ENTREGA           NOMBRECENTRAL
+3178 ADST2663003LAR013   CALAHORRA
+3179 ADST2663003LAR011   CALAHORRA
+3176 ADST2664004LAR013   HARO
+3177 ADST2664004LAR011   HARO
+3181 ADST2610004LAR011   INFANTES";;;;571261;;Avería Masiva;MAS-531728;;;Medium;MASTicketing;juanjose.vallejos;Resuelta;2017-01-17T16:48:52.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-531728;2017-01-23T08:35:15.000+0100;;;-1;2017-01-17 16:33:37;2017-01-23 08:35:15;5 days 16:01:38.000000000;17/01/2017 16:33:37;23/01/2017 08:35:15;5 days 16:01:38;<7D;5,667800925925926;Averia;jira
+15;;;2017-01-17T11:11:35.000+0100;jokin.cuello;;;;;;Operación de Red;;;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;false;;;;;;;;Tras intervensión nocturna en IMS, observa aumento del CFR (Tasa de Fallo de Llamadas). En concreto se observa un % más elevado fallidas en MGCF por la interconexion TDM contra MAD3. Los usuarios afectados son clientes convergentes, y los usuarios de pdi's migrados. El efecto para el cliente es más problemas a la hora de establecer llamadas.;;;;569118;;Avería Masiva;MAS-529814;;;Medium;MASTicketing;jokin.cuello;Resuelta;2017-01-17T12:21:09.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-529814;2017-01-23T08:24:31.000+0100;;;-1;2017-01-17 11:11:35;2017-01-23 08:24:31;5 days 21:12:56.000000000;17/01/2017 11:11:35;23/01/2017 08:24:31;5 days 21:12:56;<7D;5,883981481481482;Averia;jira
+16;;;2017-01-17T08:20:55.000+0100;sergio.hermoso;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;AVERIA MASIVA Nº 000000003932840;Media;CENTRAL MANZANARES EL REAL/ARROYO;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;false;;;;;;;;"VLAN ENTREGANOMBRECENTRAL
+2991 - ADST2865012MAD013 - MANZANARES EL REAL/ARROYO
+2992 - ADST2865012MAD011 - MANZANARES EL REAL/ARROYO";;;;568498;;Avería Masiva;MAS-529326;;;Medium;MASTicketing;sergio.hermoso;Resuelta;2017-01-18T07:02:30.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-529326;2017-01-23T08:42:50.000+0100;;;-1;2017-01-17 08:20:55;2017-01-23 08:42:50;6 days 00:21:55.000000000;17/01/2017 08:20:55;23/01/2017 08:42:50;6 days 00:21:55;<7D;6,015219907407407;Averia;jira
+17;;;2017-01-17T08:20:23.000+0100;sergio.hermoso;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;AVERIA MASIVA Nº 000000003932838;Media;CENTRAL ALGECIRAS/SALADILLO Y ALGECIRAS/ALMANZOR;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;false;;;;;;;;"VLAN ENTREGANOMBRECENTRAL
+3504 - ADST1120002CAD011 - ALGECIRAS/SALADILLO
+3505 - ADST1120001CAD111 - ALGECIRAS/ALMANZOR";;;;568494;;Avería Masiva;MAS-529322;;;Medium;MASTicketing;sergio.hermoso;Resuelta;2017-01-17T10:59:22.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-529322;2017-01-23T08:19:19.000+0100;;;-1;2017-01-17 08:20:23;2017-01-23 08:19:19;5 days 23:58:56.000000000;17/01/2017 08:20:23;23/01/2017 08:19:19;5 days 23:58:56;<7D;5,99925925925926;Averia;jira
+18;;;2017-01-17T08:19:44.000+0100;sergio.hermoso;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;AVERIA MASIVA Nº 000000003932777;Media;CENTRAL CALAHORRA Y HARO E INFANTES;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;false;;;;;;;;"VLAN ENTREGANOMBRECENTRAL
+3178 - ADST2663003LAR013 - CALAHORRA
+3179 - ADST2663003LAR011 - CALAHORRA
+3176 - ADST2664004LAR013 - HARO
+3177 - ADST2664004LAR011 - HARO
+3181 - ADST2610004LAR011 - INFANTES";;;;568487;;Avería Masiva;MAS-529315;;;Medium;MASTicketing;sergio.hermoso;Resuelta;2017-01-17T11:18:07.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-529315;2017-01-23T08:20:23.000+0100;;;-1;2017-01-17 08:19:44;2017-01-23 08:20:23;6 days 00:00:39.000000000;17/01/2017 08:19:44;23/01/2017 08:20:23;6 days 00:00:39;<7D;6,000451388888889;Averia;jira
+19;;;2017-01-17T08:18:54.000+0100;sergio.hermoso;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;AVERIA MASIVA Nº 000000003932841;Media;CENTRAL GIJON-PUMARIN +FRONTERA Y GIJON-CUATRO CAMINOS;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;false;;;;;;;;"VLAN ENTREGANOMBRECENTRAL
+2823 - ADST3303003AST011 - GIJON-PUMARIN +FRONTERA
+2824 - ADST3303002AST011 - GIJON-CUATRO CAMINOS
+";;;;568478;;Avería Masiva;MAS-529306;;;Medium;MASTicketing;sergio.hermoso;Resuelta;2017-01-17T10:50:22.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-529306;2017-01-23T08:18:56.000+0100;;;-1;2017-01-17 08:18:54;2017-01-23 08:18:56;6 days 00:00:02.000000000;17/01/2017 08:18:54;23/01/2017 08:18:56;6 days 00:00:02;<7D;6,0000231481481485;Averia;jira
+20;;;2017-01-17T07:55:40.000+0100;sergio.hermoso;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;TONO DE LLAMADA VODAFONE;Media;TONO DE LLAMADA VODAFONE;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;false;;;;;;;;No se escucha el tono de llamada al llamar desde orígenes Vodafone.;;;;568344;;Avería Masiva;MAS-529173;;2017-01-30T16:29:27.763+0100;Medium;MASTicketing;sergio.hermoso;Resuelta;2017-01-19T11:31:08.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-529173;2017-01-24T23:12:58.000+0100;;;-1;2017-01-17 07:55:40;2017-01-24 23:12:58;7 days 15:17:18.000000000;17/01/2017 07:55:40;24/01/2017 23:12:58;7 days 15:17:18;>7D;7,637013888888889;Averia;jira
+21;;;2017-01-16T10:26:01.000+0100;sergio.hermoso;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;BUZÓN DE VOZ;Media;BUZÓN DE VOZ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;false;;;;;;;;BUZÓN DE VOZ;;;;564298;;Avería Masiva;MAS-525683;;;Medium;MASTicketing;sergio.hermoso;Resuelta;2017-01-17T07:10:12.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-525683;2017-01-22T07:10:13.000+0100;;;-1;2017-01-16 10:26:01;2017-01-22 07:10:13;5 days 20:44:12.000000000;16/01/2017 10:26:01;22/01/2017 07:10:13;5 days 20:44:12;<7D;5,864027777777777;Averia;jira
+22;;;2017-01-14T14:28:43.000+0100;juanjose.vallejos;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;ACCESO xDSL CAIDA TOTAL ENLACE HUELVA VALVERDE DEL CAMINO MIGA: 2168008;Media;VLAN 3262;FALLO VOZ Y DATOS;;;ADST2168008HLV011;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;false;;;;;;;;"ACCESO xDSL
+CAIDA TOTAL ENLACE
+CABLEADO RED
+Hora Inicio : 14/01/17 07:23:11
+
+Descripción Problema : VOZ Y DATOS FU
+HUELVA VALVERDE DEL CAMINO
+MIGA: 2168008
+IVR SI
+Servicios Afectados : FALLO VOZ Y DATOS";;;;563202;;Avería Masiva;MAS-524738;;;Medium;MASTicketing;juanjose.vallejos;Resuelta;2017-01-15T11:49:48.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-524738;2017-01-15T11:49:51.000+0100;;;-1;2017-01-14 14:28:43;2017-01-15 11:49:51;0 days 21:21:08.000000000;14/01/2017 14:28:43;15/01/2017 11:49:51;0 days 21:21:08;<1D;0,8896759259259259;Averia;jira
+23;;;2017-01-13T13:15:52.000+0100;sergio.garcia;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;ADSL MASIVA;Alta;ADSL;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;false;;;;;;;;"ACCESO xDSL
+CAIDA TOTAL ENLACE
+CABLEADO RED
+Hora Inicio : 13/01/17 11:57:09
+
+Descripción Problema : VALVERDE DEL CAMINO(HUELVA)
+   ADST2168008HLV011
+   MIGA:2168008
+   IVR:SI
+Servicios Afectados  : FALLO VOZ Y DATOS
+
+
+";;;;560166;;Avería Masiva;MAS-521986;;;Medium;MASTicketing;sergio.garcia;Resuelta;2017-01-14T10:02:03.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-521986;2017-01-19T10:02:04.000+0100;;;-1;2017-01-13 13:15:52;2017-01-19 10:02:04;5 days 20:46:12.000000000;13/01/2017 13:15:52;19/01/2017 10:02:04;5 days 20:46:12;<7D;5,8654166666666665;Averia;jira
+24;;;2017-01-12T12:52:22.000+0100;sergio.garcia;sd/avería-masiva;;;;;Operación de Red;;FTTH;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;CTO;Alta;CTO;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;false;;;;;;;;"Detectadas CTOs caídas:
+029 41 001 785
+029 41 001 786
+029 41 001 787
+029 41 001 788
+
+corresponden a la misma rama, son de la  OLTZ4110021SEV022 
+
+Mas datos:
+
+Causa Caida	CTO	Estado	ID ONT	IUA	Ultima autentificacion	Ultima caida
+Ausencia de Señal (LOS) 	029 41 001 786	LOS	8	J41029AAE816	14/12/2016 2:29	11/01/2017 21:50
+ONT Apagada	029 41 001 785	Dying Gasp	7	J41 029AAC048	11/01/2017 11:54	11/01/2017 11:58
+Ausencia de Señal (LOS) 	029 41 001 787	LOS	6	J4I 904AAD608	11/01/2017 19:46	11/01/2017 21:50
+Ausencia de Señal (LOS) 	029 41 001 787	LOS	5	J4l 029AAM834	04/01/2017 14:28	11/01/2017 21:50
+Ausencia de Señal (LOS) 	029 41 001 788	LOS	4	J41904AAAI48	14/12/2016 2:30	11/01/2017 21:50
+Ausencia de Señal (LOS) 	029 41 001 787	LOS	3	J4I 029AAM387	06/01/2017 9:26	11/01/2017 21:50
+Ausencia de Señal (LOS) 	029 41 001 788	LOS	2	J41029AAA126	06/01/2017 14:04	11/01/2017 21:50
+Ausencia de Señal (LOS) 	029 41 001 785	LOS	1	J4I 029AAH887	14/12/2016 2:29	11/01/2017 21:50
+
+Escalamos incidencia a JAZZTEL";;;;555782;;Avería Masiva;MAS-518108;;;Medium;MASTicketing;sergio.garcia;Resuelta;2017-01-13T13:13:36.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-518108;2017-01-19T00:54:36.000+0100;;;-1;2017-01-12 12:52:22;2017-01-19 00:54:36;6 days 12:02:14.000000000;12/01/2017 12:52:22;19/01/2017 00:54:36;6 days 12:02:14;<7D;6,501550925925926;Averia;jira
+25;;;2017-01-09T09:01:44.000+0100;sergio.garcia;sd/avería-masiva;;;;;Operación de Red;;FTTH;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;VOZ Y DATOS;Alta;FTTH;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;;;;;;;;;"Afectados algunos abonados de FTTH Barcelona:
+
+OLTZ0810043BAR011/5/8/10/
+OLTZ0810001BAR012/16/15/12
+OLTZ0810043BAR012/13/6/12/
+OLTZ0810043BAR011/5/8/10/
+OLTZ0810043BAR031/7/15/27/
+OLTZ0810001BAR022/6/3/5/
+OLTZ0810043BAR012/8/1/4
+OLTZ0810001BAR021/9/1/5
+OLTZ0810043BAR012/12/1/5
+ ";;;;541877;;Avería Masiva;MAS-505995;;;Medium;MASTicketing;sergio.garcia;Resuelta;2017-01-09T17:37:47.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-505995;2017-01-14T23:59:34.000+0100;;;-1;2017-01-09 09:01:44;2017-01-14 23:59:34;5 days 14:57:50.000000000;09/01/2017 09:01:44;14/01/2017 23:59:34;5 days 14:57:50;<7D;5,62349537037037;Averia;jira
+26;;;2017-01-05T08:40:38.000+0100;juanjose.vallejos;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;ACCESO xDSL CAIDA TOTAL ENLACE ;Media;VLAN 2385;FALLO VOZ Y DATOS;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;;;;;;;;;"ACCESO xDSL
+CAIDA TOTAL ENLACE
+CABLEADO RED
+Hora Inicio : 05/01/17 07:31:27
+
+Descripción Problema : VOZ Y DATOS FU
+4815003 SOPELANA (VIZCAYA)
+IVR SI
+Servicios Afectados : FALLO VOZ Y DATOS";;;;537655;;Avería Masiva;MAS-502238;;;Medium;MASTicketing;juanjose.vallejos;Resuelta;2017-01-05T08:46:48.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-502238;2017-01-05T08:46:51.000+0100;;;-1;2017-01-05 08:40:38;2017-01-05 08:46:51;0 days 00:06:13.000000000;05/01/2017 08:40:38;05/01/2017 08:46:51;0 days 00:06:13;<1D;0,00431712962962963;Averia;jira
+27;;;2017-01-05T08:37:40.000+0100;sergio.hermoso;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;ACCESO xDSL CAIDA CENTRAL 4815003 SOPELANA;Media;CENTRAL 4815003 SOPELANA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;;;;;;;;;"ACCESO xDSL
+CAIDA TOTAL ENLACE
+CABLEADO RED
+Hora Inicio : 05/01/17 07:31:27
+
+Descripción Problema : VOZ Y DATOS FU
+4815003 SOPELANA (VIZCAYA)
+IVR SI
+Servicios Afectados : FALLO VOZ Y DATOS";;;;537652;;Avería Masiva;MAS-502235;;;Medium;MASTicketing;sergio.hermoso;Resuelta;2017-01-05T14:50:43.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-502235;2017-01-10T22:42:19.000+0100;;;-1;2017-01-05 08:37:40;2017-01-10 22:42:19;5 days 14:04:39.000000000;05/01/2017 08:37:40;10/01/2017 22:42:19;5 days 14:04:39;<7D;5,5865625;Averia;jira
+28;;;2017-01-03T13:13:49.000+0100;sergio.hermoso;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;ACCESO xDSL CAIDA CENTRAL 0368003 MONOVAR;Media;ENLACE MIGA 0368003;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;;;;;;;;;"0368003
+ADST0368003ALI011
+MONOVAR";;;;531867;;Avería Masiva;MAS-497086;;;Medium;MASTicketing;sergio.hermoso;Resuelta;2017-01-03T20:55:26.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-497086;2017-01-09T06:55:13.000+0100;;;-1;2017-01-03 13:13:49;2017-01-09 06:55:13;5 days 17:41:24.000000000;03/01/2017 13:13:49;09/01/2017 06:55:13;5 days 17:41:24;<7D;5,7370833333333335;Averia;jira
+29;;;2017-01-03T08:40:39.000+0100;sergio.hermoso;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;ACCESO xDSL CAIDA CENTRAL BEASAIN 2062001;Media;ENLACE MIGA 2062001;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;;;;;;;;;"ACCESO xDSL
+CAIDA TOTAL ENLACE
+RED OPERADOR TERCEROS
+Hora Inicio : 03/01/17 07:54:39
+
+Descripción Problema : VOZ Y DATOS
+   GUIPUZCOA
+   BEASAIN 2062001
+   IVR SI
+Servicios Afectados  : VOZ Y DATOS";;;;530444;;Avería Masiva;MAS-495824;;;Medium;MASTicketing;sergio.hermoso;Resuelta;2017-01-03T20:55:47.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-495824;2017-01-09T06:55:20.000+0100;;;-1;2017-01-03 08:40:39;2017-01-09 06:55:20;5 days 22:14:41.000000000;03/01/2017 08:40:39;09/01/2017 06:55:20;5 days 22:14:41;<7D;5,926863425925926;Averia;jira
+30;;;2016-12-31T16:06:54.000+0100;jokin.cuello;;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;;;;;;;;;"ACCESO xDSL
+CAIDA TOTAL ENLACE
+RED OPERADOR TERCEROS
+Hora Inicio : 31/12/16 13:24:02
+
+Descripción Problema : Caida de BAENA (1465003)
+   FERNAN NUÑEZ (1462003)
+   MONTILLA (1465007)
+   PRIEGO DE CÓRDOBA (147005)";;;;527174;;Avería Masiva;MAS-492984;;;Medium;MASTicketing;jokin.cuello;Resuelta;2016-12-31T16:07:33.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-492984;2016-12-31T16:07:35.000+0100;;;-1;2016-12-31 16:06:54;2016-12-31 16:07:35;0 days 00:00:41.000000000;31/12/2016 16:06:54;31/12/2016 16:07:35;0 days 00:00:41;<1D;0,00047453703703703704;Averia;jira
+31;;;2016-12-31T14:54:49.000+0100;francisco.rubia;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;VLANS 3414, 3413, 3423  y 3430 Córdoba;Alta;VLANS de servicio 3414, 3413, 3423  y 3430;"ACCESO xDSL
+CAIDA TOTAL ENLACE
+RED OPERADOR TERCEROS
+Hora Inicio : 31/12/16 13:24:02
+
+Descripción Problema : Caida de BAENA (1465003)
+   FERNAN NUÑEZ (1462003)
+   MONTILLA (1465007)
+   PRIEGO DE CÓRDOBA (147005)
+";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;;;;;;;;;Clientes con VLANS de servicio 3414, 3413, 3423  y 3430 caídos.;;;;527129;;Avería Masiva;MAS-492947;;;Medium;MASTicketing;francisco.rubia;Resuelta;2017-01-01T15:43:26.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-492947;2017-01-07T10:00:34.000+0100;;;-1;2016-12-31 14:54:49;2017-01-07 10:00:34;6 days 19:05:45.000000000;31/12/2016 14:54:49;07/01/2017 10:00:34;6 days 19:05:45;<7D;6,795659722222222;Averia;jira
+32;;;2016-12-29T12:06:28.000+0100;jvalentin;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;Degradación de servicio;Media;IMS - SBC;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;;;;;;;;;No hay tono en llamadas salientes a fijos VF;;;;521140;;Avería Masiva;MAS-487588;;;Medium;MASTicketing;jvalentin;Resuelta;2016-12-29T16:26:14.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-487588;2017-01-03T22:49:53.000+0100;;;-1;2016-12-29 12:06:28;2017-01-03 22:49:53;5 days 10:43:25.000000000;29/12/2016 12:06:28;03/01/2017 22:49:53;5 days 10:43:25;<7D;5,44681712962963;Averia;jira
+33;;;2016-12-29T11:21:17.000+0100;sergio.hermoso;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;ACCESO xDSL CAIDA CENTRAL SANTA COLOMA CERVELLO;Media;CENTRAL SANTA COLOMA CERVELLO;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;;;;;;;;;"ACCESO xDSL
+CAIDA TOTAL ENLACE
+RED OPERADOR TERCEROS
+Hora Inicio : 29/12/16 10:40:00
+
+Descripción Problema : CAIDA CENTRAL
+   SANTA COLOMA CERVELLO
+   ADST0814012BAR011
+   ADST0814012BAR012
+   ADST0814012BAR013
+   ADST0814012BAR014
+Servicios Afectados  : Fallo Voz y Datos FU";;;;520919;;Avería Masiva;MAS-487397;;;Medium;MASTicketing;sergio.hermoso;Resuelta;2016-12-30T07:44:03.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-487397;2017-01-04T22:40:34.000+0100;;;-1;2016-12-29 11:21:17;2017-01-04 22:40:34;6 days 11:19:17.000000000;29/12/2016 11:21:17;04/01/2017 22:40:34;6 days 11:19:17;<7D;6,471724537037037;Averia;jira
+34;;;2016-12-29T10:19:16.000+0100;sergio.hermoso;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;ACCESO xDSL CAIDA CENTRAL JUMILLA MURCIA ;Media;CENTRAL JUMILLA MURCIA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;;;;;;;;;"ACCESO xDSL
+CAIDA TOTAL ENLACE
+RED OPERADOR TERCEROS
+Hora Inicio : 29/12/16 09:26:00
+
+Descripción Problema : CAIDA CENTRAL JUMILLA MURCIA
+   ADST3065001MUR011
+   ADST3065001MUR012
+Servicios Afectados  : Fallo Voz y Datos FU";;;;520626;;Avería Masiva;MAS-487149;;;Medium;MASTicketing;sergio.hermoso;Resuelta;2016-12-30T07:41:59.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-487149;2017-01-04T22:40:24.000+0100;;;-1;2016-12-29 10:19:16;2017-01-04 22:40:24;6 days 12:21:08.000000000;29/12/2016 10:19:16;04/01/2017 22:40:24;6 days 12:21:08;<7D;6,514675925925926;Averia;jira
+35;;;2016-12-28T15:29:47.000+0100;fernando.merino;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;Masiva ADSL incomunicado;Alta;ADSL Incomunicado;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;0.0;;;;;;;;;;"Buenas tardes,
+
+Os informamos de la siguiente incidencia masiva que puede afectar a alguno de vuestros servicios.
+
+ACCESO xDSL
+CAIDA TOTAL ENLACE
+RED OPERADOR TERCEROS
+Hora Inicio : 28/12/16 13:47:59
+Descripción Problema : ADRA
+ADST0462001ALM011
+ADST0462001ALM012
+ADST0462001ALM013
+ADST0462001ALM014
+   ALMERIA
+
+VLAN ENTREGA	MIGA	NOMBRE	CENTRAL	ACCESO
+3886	0462001	ADST0462001ALM011	ADRA	ADSL
+3885	0462001	ADST0462001ALM013	ADRA	ADSL
+
+
+Servicios Afectados  : Fallo Voz y Datos FU
+
+Saludos,";;;;518679;;Avería Masiva;MAS-485428;;;Medium;MASTicketing;fernando.merino;Resuelta;2016-12-29T13:37:48.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-485428;2017-01-03T22:45:44.000+0100;;;-1;2016-12-28 15:29:47;2017-01-03 22:45:44;6 days 07:15:57.000000000;28/12/2016 15:29:47;03/01/2017 22:45:44;6 days 07:15:57;<7D;6,302743055555555;Averia;jira
+36;;;2016-12-23T08:37:25.000+0100;jvalentin;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;Degradación de servicio;Media;IMS;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;;;;;;;;;;;Entrantes sin audio;;;;508688;;Avería Masiva;MAS-476674;;;Medium;MASTicketing;jvalentin;Resuelta;2016-12-23T12:29:32.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-476674;2016-12-29T00:27:57.000+0100;;;-1;2016-12-23 08:37:25;2016-12-29 00:27:57;5 days 15:50:32.000000000;23/12/2016 08:37:25;29/12/2016 00:27:57;5 days 15:50:32;<7D;5,6600925925925925;Averia;jira
+37;;;2016-12-21T18:58:09.000+0100;jvalentin;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;Degradación de servicio;Media;IMS;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;;;;;;;;;;;Clientes no escuchan tono de llamada en salientes a numeros fijos.;;;;504257;;Avería Masiva;MAS-472749;;;Medium;MASTicketing;jvalentin;Resuelta;2016-12-22T10:28:35.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-472749;2016-12-22T10:28:41.000+0100;;;-1;2016-12-21 18:58:09;2016-12-22 10:28:41;0 days 15:30:32.000000000;21/12/2016 18:58:09;22/12/2016 10:28:41;0 days 15:30:32;<1D;0,6462037037037037;Averia;jira
+38;;;2016-12-20T16:00:39.000+0100;ivan.cordon;;;;;;Operación de Red;;;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;;;;;;;;;;;"AVERIA_MAS-466892	6332378	WD_137983
+AVERIA_MAS-466822	6300819	WD_129075
+AVERIA_MAS-466775	6279933	MYSIM_123162
+AVERIA_MAS-466765	659736	SVA_66559
+AVERIA_MAS-466754	6356593	WD_144562
+AVERIA_MAS-466606	5905114	MYSIM_380
+AVERIA_MAS-466430	5167129	WD_71058
+AVERIA_MAS-466761	Y17285359	Y17285359
+ 
+Vemos en ACS que la siguiente VLAN: 2855 tiene todos los usuarios caídos.
+";;;;497920;;Avería Masiva;MAS-467011;;;Medium;MASTicketing;ivan.cordon;Resuelta;2016-12-21T10:14:19.000+0100;MÁSMÓVIL;CLOSE;;MASIVA VLAN 2855_MAS-467011;2016-12-22T07:49:26.000+0100;;;-1;2016-12-20 16:00:39;2016-12-22 07:49:26;1 days 15:48:47.000000000;20/12/2016 16:00:39;22/12/2016 07:49:26;1 days 15:48:47;<2D;1,6588773148148148;Averia;jira
+39;;;2016-12-18T10:17:35.000+0100;fernando.merino;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;Masiva ADSL incomunicado;Alta;DSLAM HUERCAL OVERA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;;;;;;;;;;;"Desde Jazztel nos informa de posible masiva en las centrales abajo mencionadas.
+
+ 
+
+3878
+	
+
+0468005
+	
+
+ADST0468005ALM013
+	
+
+HUERCAL OVERA
+	
+
+ADSL
+
+3879
+	
+
+0468005
+	
+
+ADST0468005ALM011
+	
+
+HUERCAL OVERA
+	
+
+ADSL
+
+ ";;;;490627;;Avería Masiva;MAS-460571;;;Medium;MASTicketing;fernando.merino;Resuelta;2016-12-19T13:34:04.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-460571;2016-12-25T08:59:25.000+0100;;;-1;2016-12-18 10:17:35;2016-12-25 08:59:25;6 days 22:41:50.000000000;18/12/2016 10:17:35;25/12/2016 08:59:25;6 days 22:41:50;<7D;6,945717592592593;Averia;jira
+40;;;2016-12-16T10:43:46.000+0100;jose.gonzalez;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;voz y datos;Media;voz + datos;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;;;;;;;;;;;"Averia generalizada en la central  2350 de CASPE
+
+2350	5067001	ADST5067001ZAR011	CASPE	ADSL
+
+";;;;486874;;Avería Masiva;MAS-457222;;;Medium;MASTicketing;jose.gonzalez;Resuelta;2016-12-18T13:23:22.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-457222;2016-12-23T17:13:16.000+0100;;;-1;2016-12-16 10:43:46;2016-12-23 17:13:16;7 days 06:29:30.000000000;16/12/2016 10:43:46;23/12/2016 17:13:16;7 days 06:29:30;>7D;7,270486111111111;Averia;jira
+41;;;2016-12-16T10:38:41.000+0100;jose.gonzalez;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;voz y datos;Media;voz + datos;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;;;;;;;;;;;"Averia generalizada en la central 2538 
+2538	4462001	ADST4462001TER011	ALCAÑIZ	ADSL
+";;;;486840;;Avería Masiva;MAS-457188;;;Medium;MASTicketing;jose.gonzalez;Resuelta;2016-12-18T13:24:23.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-457188;2016-12-23T17:13:23.000+0100;;;-1;2016-12-16 10:38:41;2016-12-23 17:13:23;7 days 06:34:42.000000000;16/12/2016 10:38:41;23/12/2016 17:13:23;7 days 06:34:42;>7D;7,274097222222222;Averia;jira
+42;;;2016-12-16T10:32:39.000+0100;ivan.cordon;;;;;;SAT 2º Nivel Averías;;;SAT 2º Nivel Averías;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";SAT 2º Nivel Averías;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;;;;;;;;;;;"Problemas para acceder al Buzón de Voz.
+Aun teniéndolo activado, al intentar acceder, comunica.
+Generamos masiva. 
+ 
+";;;;486802;;Avería Masiva;MAS-457155;;;Highest;MASTicketing;ivan.cordon;Resuelta;2016-12-21T17:09:48.000+0100;MÁSMÓVIL;CLOSE;;MASIVA - Problemas activacion buzon de voz_MAS-457155;2016-12-26T22:22:06.000+0100;;;-1;2016-12-16 10:32:39;2016-12-26 22:22:06;10 days 11:49:27.000000000;16/12/2016 10:32:39;26/12/2016 22:22:06;10 days 11:49:27;>7D;10,492673611111112;Averia;jira
+43;;;2016-12-14T09:44:15.000+0100;jesus.abanades;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;MASIVA ADSL Y FTTH;Alta;BRAS;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;;;;;;;;;;;Incidencia masiva de ADSL Y FIBRA, ADSL sincronizan y no navegan, algunas FTTH no navegan va en aumento;;;;477543;;Avería Masiva;MAS-448857;;;Medium;MASTicketing;jesus.abanades;Resuelta;2016-12-14T12:28:33.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-448857;2016-12-14T14:58:24.000+0100;;;-1;2016-12-14 09:44:15;2016-12-14 14:58:24;0 days 05:14:09.000000000;14/12/2016 09:44:15;14/12/2016 14:58:24;0 days 05:14:09;<1D;0,2181597222222222;Averia;jira
+44;;;2016-12-13T20:41:37.000+0100;jose.gonzalez;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;Voz;Media;Voz;"Apertura incidencia Voz. afecta a llamadas entrantes y salientes origen Madrid y provincias colindantes a la interconexion nodal con TFCA.
+";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;;;;;;;;;;;"Apertura incidencia Voz. afecta a llamadas entrantes y salientes origen Madrid y provincias colindantes a la interconexion nodal con TFCA.
+";;;;476087;;Avería Masiva;MAS-447438;;;Medium;MASTicketing;jose.gonzalez;Resuelta;2016-12-14T11:44:44.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-447438;2016-12-20T00:10:53.000+0100;;;-1;2016-12-13 20:41:37;2016-12-20 00:10:53;6 days 03:29:16.000000000;13/12/2016 20:41:37;20/12/2016 00:10:53;6 days 03:29:16;<7D;6,145324074074074;Averia;jira
+45;;;2016-12-13T17:31:54.000+0100;fernando.merino;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;CAIDA ALBERIC (VALENCIA);Alta;ADSL Incomunicado;"
+VLAN ENTREGA	MIGA	NOMBRE	CENTRAL	ACCESO
+2470	4661002	ADST4661002VAL011	ALBERIC	ADSL
+";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;;;;;;;;;;;"Buenas tardes,
+
+Os informamos de la siguiente incidencia masiva que puede afectar a alguno
+de vuestros servicios
+
+Descripción Problema : CAIDA ALBERIC (VALENCIA)
+   ADST4661002VAL011
+
+Servicios Afectados  : VOZ Y DATOS FU
+
+VLAN ENTREGA	MIGA	NOMBRE	CENTRAL	ACCESO
+2470	4661002	ADST4661002VAL011	ALBERIC	ADSL
+
+Un cordial saludo
+";;;;475044;;Avería Masiva;MAS-446483;;;Medium;MASTicketing;fernando.merino;Resuelta;2016-12-14T09:14:29.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-446483;2016-12-19T23:59:31.000+0100;;;-1;2016-12-13 17:31:54;2016-12-19 23:59:31;6 days 06:27:37.000000000;13/12/2016 17:31:54;19/12/2016 23:59:31;6 days 06:27:37;<7D;6,26917824074074;Averia;jira
+46;;;2016-12-13T14:13:13.000+0100;jesus.abanades;;;;;;Operación de Red;;;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;INCOMUNICADO;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;;;;;;;;;;;peticiones masivas en radius de clientes adsl solo afecta adsl datos convergente ;;;;473493;;Avería Masiva;MAS-445035;;;High;MASTicketing;jesus.abanades;Resuelta;2016-12-14T12:42:05.000+0100;MÁSMÓVIL;CLOSE;;Radius - ADSL convergente_MAS-445035;2016-12-20T00:04:52.000+0100;;;-1;2016-12-13 14:13:13;2016-12-20 00:04:52;6 days 09:51:39.000000000;13/12/2016 14:13:13;20/12/2016 00:04:52;6 days 09:51:39;<7D;6,4108680555555555;Averia;jira
+47;;;2016-12-12T09:12:00.000+0100;sergio.garcia;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;VOZ Y DATOS;Alta;ADSL;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;;;;;;;;;;;"ACCESO xDSL
+CAIDA TOTAL ENLACE
+RED OPERADOR TERCEROS
+Hora Inicio : 11/12/16 00:00:00
+
+Descripción Problema : CAIDA ALGECIRAS-ALMANZOR 1120001
+   ALGECIRAS-SALADILLO 1120002
+Servicios Afectados  : VOZ Y DATOS FU
+";;;;467123;;Avería Masiva;MAS-439359;;;Medium;MASTicketing;sergio.garcia;Resuelta;2016-12-13T15:45:45.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-439359;2016-12-19T00:07:40.000+0100;;;-1;2016-12-12 09:12:00;2016-12-19 00:07:40;6 days 14:55:40.000000000;12/12/2016 09:12:00;19/12/2016 00:07:40;6 days 14:55:40;<7D;6,621990740740741;Averia;jira
+48;;;2016-12-12T09:05:37.000+0100;sergio.garcia;;;;;;SAC 1er Nivel;;;SAC 1er Nivel;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";SAC 1er Nivel;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;;;;;;;;;;;"ACCESO xDSL
+CAIDA TOTAL ENLACE
+RED OPERADOR TERCEROS
+Hora Inicio : 11/12/16 00:00:00
+
+Descripción Problema : CAIDA ALGECIRAS-ALMANZOR 1120001
+   ALGECIRAS-SALADILLO 1120002
+Servicios Afectados  : VOZ Y DATOS FU
+";;;;467105;;Avería Masiva;MAS-439347;;;High;MASTicketing;sergio.garcia;Resuelta;2016-12-12T09:12:49.000+0100;MÁSMÓVIL;CLOSE;;CAIDA ALGECIRAS-ALMANZOR 1120001_MAS-439347;2016-12-12T09:12:50.000+0100;;;-1;2016-12-12 09:05:37;2016-12-12 09:12:50;0 days 00:07:13.000000000;12/12/2016 09:05:37;12/12/2016 09:12:50;0 days 00:07:13;<1D;0,005011574074074074;Averia;jira
+49;;;2016-12-06T10:59:31.000+0100;sergio.garcia;;;;;;Operación de Red;;FTTH;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;;;;;;;;;;;"Jazztel nos avisa de una posible averia masiva de voz y datos en Bilbao-Bizkaia:
+
+Buenos días,
+
+Os informamos de la siguiente incidencia masiva que puede afectar a alguno de vuestros servicios.
+
+Descripción Problema : ADSH4810013VIZ02
+4810013 BILBAO BIZKAIA
+Servicios Afectados : Fallo Voz y Datos
+
+Saludos,";;;;457672;;Avería Masiva;MAS-430915;;;Medium;MASTicketing;sergio.garcia;Resuelta;2016-12-06T11:07:33.000+0100;MÁSMÓVIL;CLOSE;;Fallo Voz y Datos - Bilbao Bizkaia_MAS-430915;2016-12-06T11:07:35.000+0100;;;-1;2016-12-06 10:59:31;2016-12-06 11:07:35;0 days 00:08:04.000000000;06/12/2016 10:59:31;06/12/2016 11:07:35;0 days 00:08:04;<1D;0,005601851851851852;Averia;jira
+50;;;2016-12-05T19:57:02.000+0100;sergio.garcia;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;ADSL MASIVA;Alta;ADSL;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;;;;;;;;;;;"Reclamamos a Jazztel Posible incidencia masiva en la zona de Huelva,
+Servicio afectado ADSL:
+
+VLANs
+3269	2162001	ADST2162001HLV011	AYAMONTE/ESURI	ADSL
+3267	2162002	ADST2162002HLV011	ISLA CRISTINA	ADSL
+3264	2164005	ADST2164005HLV011	LEPE	ADSL
+
+";;;;457381;;Avería Masiva;MAS-430641;;;Medium;MASTicketing;sergio.garcia;Resuelta;2016-12-06T10:44:00.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-430641;2016-12-11T22:11:37.000+0100;;;-1;2016-12-05 19:57:02;2016-12-11 22:11:37;6 days 02:14:35.000000000;05/12/2016 19:57:02;11/12/2016 22:11:37;6 days 02:14:35;<7D;6,093460648148148;Averia;jira
+51;;;2016-12-02T19:19:11.000+0100;ivan.cordon;;;;;;Operación de Red;;FTTH;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;;;;;;;;;;;;;;;452671;;Avería Masiva;MAS-426439;;;High;MASTicketing;ivan.cordon;Resuelta;2016-12-03T10:28:52.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-426439;2016-12-08T10:28:52.000+0100;;;-1;2016-12-02 19:19:11;2016-12-08 10:28:52;5 days 15:09:41.000000000;02/12/2016 19:19:11;08/12/2016 10:28:52;5 days 15:09:41;<7D;5,631724537037037;Averia;jira
+52;;;2016-12-02T19:17:05.000+0100;ivan.cordon;;;;;;Operación de Red;;FTTH;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;;Alta;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;Atencion Al Cliente;;;;;;;;;;;;;;;;;;NO NOTIFICADO;;;;;;;;;;;;;;;;;;;;;452668;;Avería Masiva;MAS-426437;;;High;MASTicketing;ivan.cordon;Resuelta;2016-12-03T10:28:01.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-426437;2016-12-08T10:28:02.000+0100;;;-1;2016-12-02 19:17:05;2016-12-08 10:28:02;5 days 15:10:57.000000000;02/12/2016 19:17:05;08/12/2016 10:28:02;5 days 15:10:57;<7D;5,632604166666667;Averia;jira
+53;;;2016-11-29T19:44:58.000+0100;salus.corpas;sd/avería-masiva;;;;;;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";MÁSMÓVIL;averia masiva;Alta;Internet;Afecta tanto línea fija como internet de las los líneas;24.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Cliente ha llamado en repetida ocasiones para realizar pedido de averia masiva, ya sean realizado varias averias una el día 14/11/2016 y otra el dia 16/11/2016, en ningún momento no se ha restablecido el servicio  aún continua con el mismo problema, tiene afectada dos servicios de internet donde a partir de las 17:00 se pierde la conexión y queda incomunicado totalmente, solicita otra vez que se solucione el problema de esta avería masiva.;;;;432891;;Avería Masiva;MAS-407937;;;Medium;MASTicketing;salus.corpas;Descartada;2016-11-29T20:01:01.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-407937;2016-12-04T22:15:27.000+0100;;;-1;2016-11-29 19:44:58;2016-12-04 22:15:27;5 days 02:30:29.000000000;29/11/2016 19:44:58;04/12/2016 22:15:27;5 days 02:30:29;<7D;5,104502314814815;Averia;jira
+54;;;2016-11-28T18:50:42.000+0100;juanjose.vallejos;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;CAIDA TOTAL ENLACE RED OPERADOR TERCEROS 1120001 ALGECIRAS - ALMANZOR (CADIZ) // 1120002 ALGECIRAS - SALADILLO (CADIZ);Media;RED OPERADOR TERCEROS;VOZ Y DATOS FU;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"ACCESO xDSL
+CAIDA TOTAL ENLACE
+RED OPERADOR TERCEROS
+Hora Inicio : 28/11/16 17:18:00
+Descripción Problema : VOZ Y DATOS FU
+1120001 ALGECIRAS - ALMANZOR (CADIZ) - VLAN 3505
+1120002 ALGECIRAS - SALADILLO (CADIZ) - VLAN 3504
+Servicios Afectados : VOZ Y DATOS FU ";;;;426690;;Avería Masiva;MAS-402157;;;Medium;MASTicketing;juanjose.vallejos;Resuelta;2016-11-28T23:32:17.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-402157;2016-12-04T21:41:24.000+0100;;;-1;2016-11-28 18:50:42;2016-12-04 21:41:24;6 days 02:50:42.000000000;28/11/2016 18:50:42;04/12/2016 21:41:24;6 days 02:50:42;<7D;6,118541666666666;Averia;jira
+55;;;2016-11-27T15:45:42.000+0100;fernando.merino;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;ADSL Incomunicado OLOT GERONA;Alta;DSLAM OLOT GERONA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"Buenas tardes,
+
+Os remitimos la siguiente incidencia que afecta a clientes Masmovil:
+
+CAIDA OLOT GERONA
+
+ADSH1765006GER01
+ADSH1765006GER01
+ADSH1765006GER01 
+
+Saludos. ";;;;423122;;Avería Masiva;MAS-398999;;;Medium;MASTicketing;fernando.merino;Resuelta;2016-11-28T08:57:03.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-398999;2016-12-03T21:37:36.000+0100;;;-1;2016-11-27 15:45:42;2016-12-03 21:37:36;6 days 05:51:54.000000000;27/11/2016 15:45:42;03/12/2016 21:37:36;6 days 05:51:54;<7D;6,244375;Averia;jira
+56;;;2016-11-27T14:51:46.000+0100;fernando.merino;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;ADSL Incomunicado BARBATE CADIZ;Alta;DSLAM BARBATE CADIZ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"Buenas tardes,
+
+Os remitimos la siguiente incidencia que afecta a clientes Masmovil:
+
+Caida central
+
+BARBATE CADIZ
+
+ADST1162001CAD011
+ADST1162001CAD012
+ADST1162001CAD013
+ADST1162001CAD014
+Saludos.";;;;423107;;Avería Masiva;MAS-398984;;;Medium;MASTicketing;fernando.merino;Resuelta;2016-11-28T18:46:16.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-398984;2016-12-03T22:01:33.000+0100;;;-1;2016-11-27 14:51:46;2016-12-03 22:01:33;6 days 07:09:47.000000000;27/11/2016 14:51:46;03/12/2016 22:01:33;6 days 07:09:47;<7D;6,298460648148148;Averia;jira
+57;;;2016-11-27T14:49:20.000+0100;fernando.merino;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;ADSL Incomunicado Medina Sidonia.;Alta;DSLAM Medina Sidonia;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"Buenas tardes,
+
+Os remitimos la siguiente incidencia que afecta a clientes Masmovil:
+
+Caida central
+
+Medina Sidonia.
+
+ADST1163003CAD011
+ADST1163003CAD012
+
+Saludos.";;;;423106;;Avería Masiva;MAS-398983;;;Medium;MASTicketing;fernando.merino;Resuelta;2016-11-28T20:40:46.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-398983;2016-12-03T22:02:59.000+0100;;;-1;2016-11-27 14:49:20;2016-12-03 22:02:59;6 days 07:13:39.000000000;27/11/2016 14:49:20;03/12/2016 22:02:59;6 days 07:13:39;<7D;6,301145833333333;Averia;jira
+58;;;2016-11-27T14:24:22.000+0100;fernando.merino;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;Masiva ADSL incomunicado;Alta;DSLAM cadiz;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"
+Buenas tardes,os remitimmos la siguiente incidencia que afecta a clientes masmovil:
+
+CAIDA CENTRAL.
+
+1120003 CADIZ
+ADST1120003CAD011
+ADST1120003CAD012
+
+Saludos. 
+";;;;423097;;Avería Masiva;MAS-398976;;;Medium;MASTicketing;fernando.merino;Resuelta;2016-11-28T21:58:17.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-398976;2016-12-04T21:40:54.000+0100;;;-1;2016-11-27 14:24:22;2016-12-04 21:40:54;7 days 07:16:32.000000000;27/11/2016 14:24:22;04/12/2016 21:40:54;7 days 07:16:32;>7D;7,303148148148148;Averia;jira
+59;;;2016-11-27T14:22:41.000+0100;fernando.merino;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;Masiva. nº 000000003803900;Alta;ADSL;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"Buenas tardes, os remitimos la siguiente incidencia que afecta a clientes Masmovil.
+
+ADST1122005CAD011
+ADST1122005CAD012
+ADST1122005CAD013
+ADST1122005CAD014
+ADST1122005CAD021
+ADST1122005CAD022 
+
+Un saludo.
+";;;;423095;;Avería Masiva;MAS-398974;;;Medium;MASTicketing;fernando.merino;Resuelta;2016-11-28T23:26:13.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-398974;2016-12-04T21:41:13.000+0100;;;-1;2016-11-27 14:22:41;2016-12-04 21:41:13;7 days 07:18:32.000000000;27/11/2016 14:22:41;04/12/2016 21:41:13;7 days 07:18:32;>7D;7,304537037037037;Averia;jira
+60;;;2016-11-25T08:29:05.000+0100;sergio.hermoso;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;ACCESO xDSL CAIDA TOTAL ENLACE MIGA 0868006 BARCELONA;Alta;ENLACE 0868006 BARCELONA;"ACCESO xDSL
+
+CAIDA TOTAL ENLACE
+
+RED OPERADOR TERCEROS
+
+Hora Inicio : 25/11/16 01:52:00
+
+ 
+
+Descripción Problema : 0868006 BARCELONA
+
+   ADST0868006BAR011
+
+   ADST0868006BAR012
+
+Servicios Afectados  : Fallo Voz y Datos";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"ACCESO xDSL
+
+CAIDA TOTAL ENLACE
+
+RED OPERADOR TERCEROS
+
+Hora Inicio : 25/11/16 01:52:00
+
+ 
+
+Descripción Problema : 0868006 BARCELONA
+
+   ADST0868006BAR011
+
+   ADST0868006BAR012
+
+Servicios Afectados  : Fallo Voz y Datos";;;;419214;;Avería Masiva;MAS-395448;;;Medium;MASTicketing;sergio.hermoso;Resuelta;2016-11-25T09:04:15.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-395448;2016-11-25T09:04:21.000+0100;;;-1;2016-11-25 08:29:05;2016-11-25 09:04:21;0 days 00:35:16.000000000;25/11/2016 08:29:05;25/11/2016 09:04:21;0 days 00:35:16;<1D;0,02449074074074074;Averia;jira
+61;;;2016-11-24T09:53:53.000+0100;sergio.hermoso;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;ACCESO xDSL CAIDA TOTAL ENLACE MIGA 4110005 TRIANA CENTRAL SEVILLA;Alta;ENLACE MIGA 4110005 ;Fallo Voz y Datos FU;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"ACCESO xDSL
+CAIDA TOTAL ENLACE
+RED OPERADOR TERCEROS
+Hora Inicio : 24/11/16 07:33:01
+
+Descripción Problema : TRIANA CENTRAL SEVILLA
+   4110005.
+Servicios Afectados  : Fallo Voz y Datos FU";;;;415963;;Avería Masiva;MAS-392423;;;Medium;MASTicketing;sergio.hermoso;Resuelta;2016-11-24T15:34:03.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-392423;2016-11-29T23:15:55.000+0100;;;-1;2016-11-24 09:53:53;2016-11-29 23:15:55;5 days 13:22:02.000000000;24/11/2016 09:53:53;29/11/2016 23:15:55;5 days 13:22:02;<7D;5,556967592592592;Averia;jira
+62;;;2016-11-24T09:51:31.000+0100;jokin.cuello;;;;;;;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";MÁSMÓVIL;;;;;;48;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"Informan de dos centrales con problemas en Sevilla - Triana
+
+2666ADST4110005SEV111SEVILLA-TRIANA (48 usuarios afectados)
+2665ADST4110005SEV113SEVILLA-TRIANA (ningún usuario afectado)
+
+La avería se ha iniciado a las 01h07 de hoy 24 de noviembre.";;;;415952;;Avería Masiva;MAS-392412;;;Medium;MASTicketing;jokin.cuello;Descartada;2016-11-24T09:54:58.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-392412;2016-11-24T09:54:59.000+0100;;;-1;2016-11-24 09:51:31;2016-11-24 09:54:59;0 days 00:03:28.000000000;24/11/2016 09:51:31;24/11/2016 09:54:59;0 days 00:03:28;<1D;0,0024074074074074076;Averia;jira
+63;;;2016-11-22T15:14:12.000+0100;jesus.abanades;sd/avería-masiva;;;;;Operación de Red;;FTTH;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;FTTH - NO NAVEGAN - NO CONECTAN;Alta;VARIAS OLT's;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Clientes FTTH NO NAVEGAN, NO CONTECTAN, SI AUTENTICAN;;;;410470;;Avería Masiva;MAS-387256;;;Medium;MASTicketing;jesus.abanades;Resuelta;2016-11-23T10:50:29.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-387256;2016-11-28T22:58:24.000+0100;;;-1;2016-11-22 15:14:12;2016-11-28 22:58:24;6 days 07:44:12.000000000;22/11/2016 15:14:12;28/11/2016 22:58:24;6 days 07:44:12;<7D;6,322361111111111;Averia;jira
+64;;;2016-11-22T11:56:37.000+0100;wasima.khayat;sd/avería-masiva;;;;;Operación de Red;;FTTH;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;AVERIA MASIVA MYSIM_163795;Media;FTTH;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"22/11/2016 WASIMA:  CLIENTA ESTA AFECTADA POR AVERIA MASIVA MYSIM_163795
+NOMBRE: MARIA DEL MAR JUAREZ MORENO
+T.CONTACTO: 651720911";;;;409279;;Avería Masiva;MAS-386126;;;Medium;MASTicketing;wasima.khayat;Resuelta;2016-11-22T12:00:10.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-386126;2016-11-27T22:40:32.000+0100;;;-1;2016-11-22 11:56:37;2016-11-27 22:40:32;5 days 10:43:55.000000000;22/11/2016 11:56:37;27/11/2016 22:40:32;5 days 10:43:55;<7D;5,4471643518518515;Averia;jira
+65;;;2016-11-22T11:44:08.000+0100;wasima.khayat;sd/avería-masiva;;;;;Operación de Red;;FTTH;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;averia masiva  MAS-385349;Alta;FIBRA;AFECTADO PC Y MOVIL;5.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;22/11/2016 wasima: CLIENTE INCOMUNICADO DE FIBRA CON AVERIA MASIVA  MAS-385349.;;;;409222;;Avería Masiva;MAS-386071;;;Medium;MASTicketing;wasima.khayat;Resuelta;2016-11-22T11:45:28.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-386071;2016-11-27T22:40:11.000+0100;;;-1;2016-11-22 11:44:08;2016-11-27 22:40:11;5 days 10:56:03.000000000;22/11/2016 11:44:08;27/11/2016 22:40:11;5 days 10:56:03;<7D;5,455590277777778;Averia;jira
+66;;;2016-11-22T09:18:41.000+0100;jesus.abanades;sd/avería-masiva;;;;;Operación de Red;;FTTH;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;FTTH - NO CONTECTAN NO NAVEGAN;Alta;VARIAS OLT's;Varias OLT's a nivel nacional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;autentican, pero no conectan y no navegan;;;;408471;;Avería Masiva;MAS-385349;;;Medium;MASTicketing;jesus.abanades;Resuelta;2016-11-22T12:49:05.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-385349;2016-11-27T22:41:41.000+0100;;;-1;2016-11-22 09:18:41;2016-11-27 22:41:41;5 days 13:23:00.000000000;22/11/2016 09:18:41;27/11/2016 22:41:41;5 days 13:23:00;<7D;5,557638888888889;Averia;jira
+67;;;2016-11-21T12:29:39.000+0100;jorge.gil;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;incomunicados RADIUS;Alta;Radius;sss;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;ssss;;;;405841;;Avería Masiva;MAS-382885;;;Medium;MASTicketing;jorge.gil;Resuelta;2016-11-21T12:40:48.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-382885;2016-11-27T00:37:50.000+0100;;;-1;2016-11-21 12:29:39;2016-11-27 00:37:50;5 days 12:08:11.000000000;21/11/2016 12:29:39;27/11/2016 00:37:50;5 days 12:08:11;<7D;5,505682870370371;Averia;jira
+68;;;2016-11-20T12:40:17.000+0100;ivan.cordon;;;;;;Operación de Red;;;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;Averia;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;404544;;Avería Masiva;MAS-381644;;;High;MASTicketing;ivan.cordon;Resuelta;2016-11-20T17:51:56.000+0100;MÁSMÓVIL;CLOSE;;Masiva San Martin de la Vega_MAS-381644;2016-11-26T00:26:44.000+0100;;;-1;2016-11-20 12:40:17;2016-11-26 00:26:44;5 days 11:46:27.000000000;20/11/2016 12:40:17;26/11/2016 00:26:44;5 days 11:46:27;<7D;5,490590277777778;Averia;jira
+69;;;2016-11-18T15:23:24.000+0100;wasima.khayat;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;AVERIA MASIVA MAS-379771;Media;ADSL;ADSL;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"18/11/2016 WASIMA:
+
+CLIENTE AFECTADO POR AVERIA MASIVA
+DATOS GENERALES
+
+Nombre apellido Cte: MARIA CEPEDA
+Telefono Acceso:974095637
+Persona Contacto: PABLO GONZALEZ
+tlf Contacto:693776559
+Dirección:CAMINO DE LA BARCA Nº5 2ºB (CP: 22300 BARRASTRO-HUESCA)
+VLANs/ VLANc: 3258/21
+
+SINTOMA
+Incomunicado ADSL
+
+
+PROVISION
+*Aquí ira MySim, cliente activo, instalado, estado de la Ot.
+
+
+
+PRUEBAS PROCEDIMIENTO
+
+Revisar si el Cliente está dado de Alta (mysim).:OK
+Revisar si el cliente está afectado por avería Masiva. ¿Publicada?:SI ESTA AFECTADO POR AVERIA MASIVA
+Revisar si tiene una averia ya abierta en JIRA
+Conectado a PTR?
+Revisar luces. Todas las luces apagadas.  
+Revisar luces. DSL apagada.
+DSL encendida, INTERNET apagado. En ese caso, el Router esta sincronizado
+Reset Valores de fábrica. Carga nueva de Plantilla.
+Carga Backup desde ACS.";;;;402975;;Avería Masiva;MAS-380189;;;Medium;MASTicketing;wasima.khayat;Resuelta;2016-11-18T20:37:06.000+0100;MÁSMÓVIL;Resuelta;;AVERIA_MASIVA_MAS-380189;2016-11-18T20:37:35.000+0100;;;-1;2016-11-18 15:23:24;2016-11-18 20:37:35;0 days 05:14:11.000000000;18/11/2016 15:23:24;18/11/2016 20:37:35;0 days 05:14:11;<1D;0,21818287037037037;Averia;jira
+70;;;2016-11-18T14:42:11.000+0100;sergio.hermoso;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;ACCESO xDSL CAIDA TOTAL ENLACE MIGA 2263005 HUESCA;Alta;ENLACE MIGA 2263005;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"ACCESO xDSL
+CAIDA TOTAL ENLACE
+FALLO ALIMENTACION TERCEROS
+Hora Inicio : 18/11/16 14:00:24
+
+Descripción Problema : Caida Huesca Barbastro
+System 1 tipo C
+
+2263005
+Servicios Afectados : voz y datos fu";;;;402550;;Avería Masiva;MAS-379771;;;Medium;MASTicketing;sergio.hermoso;Resuelta;2016-11-18T21:56:48.000+0100;MÁSMÓVIL;Resuelta;;AVERIA_MASIVA_MAS-379771;2016-11-18T21:56:48.000+0100;;;-1;2016-11-18 14:42:11;2016-11-18 21:56:48;0 days 07:14:37.000000000;18/11/2016 14:42:11;18/11/2016 21:56:48;0 days 07:14:37;<1D;0,30181712962962964;Averia;jira
+71;;;2016-11-17T08:42:02.000+0100;fernando.merino;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;AVERIA MASIVA Nº 000000003774353;Alta;MIGA 0869010 SALLENT;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"
+Buenas tardes,
+
+Os informamos de la siguiente incidencia masiva que puede afectar a alguno de vuestros servicios.
+
+   MIGA 0869010 SALLENT
+   CORTE TOTAL
+
+Saludos,";;;;397512;;Avería Masiva;MAS-374961;;;Medium;MASTicketing;fernando.merino;Resuelta;2016-11-17T09:40:36.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-374961;2016-11-22T23:35:52.000+0100;;;-1;2016-11-17 08:42:02;2016-11-22 23:35:52;5 days 14:53:50.000000000;17/11/2016 08:42:02;22/11/2016 23:35:52;5 days 14:53:50;<7D;5,620717592592593;Averia;jira
+72;;;2016-11-17T08:21:18.000+0100;sergio.hermoso;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;ACCESO xDSL CAIDA TOTAL ENLACE MIGA 0869010 SALLENT;Alta;ENLACE MIGA 0869010;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"ACCESO xDSL
+CAIDA TOTAL ENLACE
+FALLO ALIMENTACION
+Hora Inicio : 17/11/16 07:13:14
+
+Descripción Problema : VOZ Y DATOS FU
+MIGA 0869010 SALLENT
+CORTE TOTAL
+IVR SI
+Servicios Afectados : FALLO VOZ Y DATOS";;;;397427;;Avería Masiva;MAS-374878;;;Medium;MASTicketing;sergio.hermoso;Resuelta;2016-11-17T09:41:43.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-374878;2016-11-17T09:41:45.000+0100;;;-1;2016-11-17 08:21:18;2016-11-17 09:41:45;0 days 01:20:27.000000000;17/11/2016 08:21:18;17/11/2016 09:41:45;0 days 01:20:27;<1D;0,05586805555555555;Averia;jira
+73;;;2016-11-16T18:11:19.000+0100;juanjose.vallejos;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;ACCESO xDSL CAIDA TOTAL ENLACE MORALEJA DE EN MEDIO (MADRID);Media;RED OPERADOR TERCEROS;VOZ Y DATOS FU MORALEJA DE EN MEDIO (MADRID);;TODOS VOZ Y DATOS MORALEJA DE EN MEDIO (MADRID);;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"ACCESO xDSL
+CAIDA TOTAL ENLACE
+RED OPERADOR TERCEROS
+Hora Inicio : 16/11/16 17:53:12
+
+Descripción Problema : MORALEJA DE EN MEDIO (MADRID)
+
+System 1 Tipo D
+Servicios Afectados : VOZ Y DATOS FU";;;;396811;;Avería Masiva;MAS-374297;;;Medium;MASTicketing;juanjose.vallejos;Resuelta;2016-11-17T12:59:57.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-374297;2016-11-22T23:44:57.000+0100;;;-1;2016-11-16 18:11:19;2016-11-22 23:44:57;6 days 05:33:38.000000000;16/11/2016 18:11:19;22/11/2016 23:44:57;6 days 05:33:38;<7D;6,231689814814815;Averia;jira
+74;;;2016-11-16T17:02:45.000+0100;juanjose.vallejos;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;ACCESO xDSL CAIDA TOTAL ENLACE RED OPERADOR TERCEROS LEBRIJA (SEVILLA);Media;RED OPERADOR TERCEROS;VOZ Y DATOS FU;;TODOS  ACCESO xDSL VOZ Y DATOS LEBRIJA (SEVILLA);;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"ACCESO xDSL
+CAIDA TOTAL ENLACE
+RED OPERADOR TERCEROS
+Hora Inicio : 16/11/16 16:36:57
+
+Descripción Problema : LEBRIJA (SEVILLA)
+
+System 1 Tipo D
+Servicios Afectados : VOZ Y DATOS FU";;;;396493;;Avería Masiva;MAS-373992;;;Medium;MASTicketing;juanjose.vallejos;Resuelta;2016-11-17T10:12:49.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-373992;2016-11-22T23:38:08.000+0100;;;-1;2016-11-16 17:02:45;2016-11-22 23:38:08;6 days 06:35:23.000000000;16/11/2016 17:02:45;22/11/2016 23:38:08;6 days 06:35:23;<7D;6,274571759259259;Averia;jira
+75;;;2016-11-16T16:52:28.000+0100;juanjose.vallejos;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;ACCESO xDSL CAIDA TOTAL ENLACE RED OPERADOR TERCEROS UBRIQUE (CADIZ);Media;RED OPERADOR TERCEROS;VOZ Y DATOS FU;;TODOS CAIDA TOTAL ENLACE;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"ACCESO xDSL
+CAIDA TOTAL ENLACE
+RED OPERADOR TERCEROS
+Hora Inicio : 16/11/16 16:26:44
+
+Descripción Problema : UBRIQUE (CADIZ)
+System 1 Tipo D
+Servicios Afectados : VOZ Y DATOS FU";;;;396467;;Avería Masiva;MAS-373967;;;Medium;MASTicketing;juanjose.vallejos;Resuelta;2016-11-17T10:00:14.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-373967;2016-11-22T23:37:33.000+0100;;;-1;2016-11-16 16:52:28;2016-11-22 23:37:33;6 days 06:45:05.000000000;16/11/2016 16:52:28;22/11/2016 23:37:33;6 days 06:45:05;<7D;6,28130787037037;Averia;jira
+76;;;2016-11-15T15:44:36.000+0100;jesus.abanades;;;;;;Operación de Red;;;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;392540;;Avería Masiva;MAS-370248;;;Medium;MASTicketing;jesus.abanades;Resuelta;2016-11-15T16:02:12.000+0100;MÁSMÓVIL;CLOSE;;test2_MAS-370248;2016-11-15T16:02:14.000+0100;;;-1;2016-11-15 15:44:36;2016-11-15 16:02:14;0 days 00:17:38.000000000;15/11/2016 15:44:36;15/11/2016 16:02:14;0 days 00:17:38;<1D;0,01224537037037037;Averia;jira
+77;;;2016-11-15T15:44:00.000+0100;sergio.garcia;;;;;;Operación de Red;;;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;392536;;Avería Masiva;MAS-370244;;;Medium;MASTicketing;sergio.garcia;Resuelta;2016-11-15T15:44:52.000+0100;MÁSMÓVIL;CLOSE;;test_MAS-370244;2016-11-15T15:45:07.000+0100;;;-1;2016-11-15 15:44:00;2016-11-15 15:45:07;0 days 00:01:07.000000000;15/11/2016 15:44:00;15/11/2016 15:45:07;0 days 00:01:07;<1D;0,0007754629629629629;Averia;jira
+78;;;2016-11-15T15:42:22.000+0100;sergio.garcia;;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Prueba;;;;392528;;Avería Masiva;MAS-370236;;;High;MASTicketing;sergio.garcia;Resuelta;2016-11-15T16:06:28.000+0100;MÁSMÓVIL;CLOSE;;Prueba_MAS-370236;2016-11-15T16:06:32.000+0100;;;-1;2016-11-15 15:42:22;2016-11-15 16:06:32;0 days 00:24:10.000000000;15/11/2016 15:42:22;15/11/2016 16:06:32;0 days 00:24:10;<1D;0,01678240740740741;Averia;jira
+79;;;2016-11-15T14:59:23.000+0100;jesus.abanades;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;JAZZTEL MASIVA VOZ Y DATOS FU MONTIJO;Alta;CAIDA TOTAL ENLACE  - CABLEADO RED;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"INCIDENCIA MASIVA JAZZTEL
+VOZ Y DATOS FU
+MONTIJO  -  0614006
+ACCESO xDSL
+CAIDA TOTAL ENLACE
+CABLEADO RED
+Hora Inicio : 15/11/16 14:27:30
+
+
+VLAN AFECTADAS:
+3868
+3869
+3870";;;;392179;;Avería Masiva;MAS-369894;;;Medium;MASTicketing;jesus.abanades;Resuelta;2016-11-16T08:06:31.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-369894;2016-11-16T08:06:34.000+0100;;;-1;2016-11-15 14:59:23;2016-11-16 08:06:34;0 days 17:07:11.000000000;15/11/2016 14:59:23;16/11/2016 08:06:34;0 days 17:07:11;<1D;0,7133217592592592;Averia;jira
+80;;;2016-11-15T08:58:25.000+0100;sergio.garcia;;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"Buenos días, 
+
+Se detecta incidencia masiva en la siguiente central: 
+
+VLAN 3046	2812017 
+ADST2812017MAD011 
+MORALEJA DE EN MEDIO 
+ADSL 
+
+Un saludo";;;;390289;;Avería Masiva;MAS-368080;;;Medium;MASTicketing;sergio.garcia;Resuelta;2016-11-16T08:05:04.000+0100;MÁSMÓVIL;CLOSE;;VLAN sin funcionamiento 3046_MAS-368080;2016-11-16T08:05:12.000+0100;;;-1;2016-11-15 08:58:25;2016-11-16 08:05:12;0 days 23:06:47.000000000;15/11/2016 08:58:25;16/11/2016 08:05:12;0 days 23:06:47;<1D;0,9630439814814815;Averia;jira
+81;;;2016-11-11T15:47:32.000+0100;jose.gonzalez;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;voz y datos;Media;voz y datos;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"ACCESO xDSL
+CAIDA TOTAL ENLACE
+CABLEADO RED
+Hora Inicio : 11/11/16 14:54:30
+
+Descripción Problema : FALLO VOZ Y DATOS FU
+   LEBRIJA(SEVILLA)
+   MIGA:4170004
+   IVR:SI
+Servicios Afectados  : FALLO VOZ Y DATOS FU
+";;;;384555;;Avería Masiva;MAS-362630;;;Medium;MASTicketing;jose.gonzalez;Resuelta;2016-11-12T13:04:52.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-362630;2016-11-17T23:48:09.000+0100;;;-1;2016-11-11 15:47:32;2016-11-17 23:48:09;6 days 08:00:37.000000000;11/11/2016 15:47:32;17/11/2016 23:48:09;6 days 08:00:37;<7D;6,3337615740740745;Averia;jira
+82;;;2016-11-11T15:44:27.000+0100;jose.gonzalez;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;voz y datos;Media;voz y daatos;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"ACCESO xDSL
+CAIDA TOTAL ENLACE
+CABLEADO RED
+Hora Inicio : 11/11/16 14:22:19
+
+Descripción Problema : INCOMUNICADO
+   Pola de lena(ASTURIAS)
+   MIGA:3366007
+   IVR:SI
+Servicios Afectados  : FALLO VOZ Y DATOS FU
+";;;;384538;;Avería Masiva;MAS-362613;;;Medium;MASTicketing;jose.gonzalez;Resuelta;2016-11-11T19:44:21.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-362613;2016-11-17T00:13:26.000+0100;;;-1;2016-11-11 15:44:27;2016-11-17 00:13:26;5 days 08:28:59.000000000;11/11/2016 15:44:27;17/11/2016 00:13:26;5 days 08:28:59;<7D;5,353460648148149;Averia;jira
+83;;;2016-11-11T15:39:47.000+0100;jose.gonzalez;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;Incomunicado;Media;voz + datos;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"ACCESO xDSL
+CAIDA TOTAL ENLACE
+CABLEADO RED
+Hora Inicio : 11/11/16 14:14:01
+
+Descripción Problema : VOZ Y DATOS FU
+   UBRIQUE( CADIZ)
+   MIGA:1164007
+   IVR:SI
+Servicios Afectados  : FALLO VOZ Y DATOS FU
+
+";;;;384525;;Avería Masiva;MAS-362601;;;Medium;MASTicketing;jose.gonzalez;Resuelta;2016-11-12T21:10:58.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-362601;2016-11-17T23:49:37.000+0100;;;-1;2016-11-11 15:39:47;2016-11-17 23:49:37;6 days 08:09:50.000000000;11/11/2016 15:39:47;17/11/2016 23:49:37;6 days 08:09:50;<7D;6,340162037037037;Averia;jira
+84;;;2016-11-07T21:31:10.000+0100;jokin.cuello;;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"Nos informan de dos Vlans sin funcionamiento desde las 15h16
+
+3878 0468005 ADST0468005ALM013 HUERCAL OVERA
+3879 0468005 ADST0468005ALM011 HUERCAL OVERA
+
+Se han solucionado a las 20h24. A la espera que nos den más información de lo ocurrido.";;;;372666;;Avería Masiva;MAS-351478;;;Medium;MASTicketing;jokin.cuello;Resuelta;2016-11-07T21:31:19.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-351478;2016-11-12T23:42:44.000+0100;;;-1;2016-11-07 21:31:10;2016-11-12 23:42:44;5 days 02:11:34.000000000;07/11/2016 21:31:10;12/11/2016 23:42:44;5 days 02:11:34;<7D;5,09136574074074;Averia;jira
+85;;;2016-11-06T14:23:35.000+0100;juanjose.vallejos;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;Vlans sin funcionamiento 3318, 3319 y 3321;Media;Ninguno;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"Hemos detectado dos Vlans sin funcionamiento desde hoy a las 11.53.
+3318	1865014	ADST1865014GRA013	GUADIX	ADSL
+3319	1865014	ADST1865014GRA011	GUADIX	ADSL
+3321	1862001	ADST1862001GRA011	BAZA	ADSL";;;;369026;;Avería Masiva;MAS-348049;;;Medium;MASTicketing;juanjose.vallejos;Resuelta;2016-11-07T10:56:59.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-348049;2016-11-07T10:57:03.000+0100;;;-1;2016-11-06 14:23:35;2016-11-07 10:57:03;0 days 20:33:28.000000000;06/11/2016 14:23:35;07/11/2016 10:57:03;0 days 20:33:28;<1D;0,856574074074074;Averia;jira
+86;;;2016-11-06T12:06:18.000+0100;jokin.cuello;;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"Nos informan que problema en dos centrales de un mismo municipio
+
+3878 0468005 ADST0468005ALM013 HUERCAL OVERA
+3879 0468005 ADST0468005ALM011 HUERCAL OVERA
+
+No hay información desde Jazztel declarando la masiva. Afecta a 21 usuarios.
+Abrimos masiva en Jazztel para que nos informen de lo que ocurre.
+";;;;368982;;Avería Masiva;MAS-348007;;;Medium;MASTicketing;jokin.cuello;Resuelta;2016-11-06T15:22:41.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-348007;2016-11-11T23:01:52.000+0100;;;-1;2016-11-06 12:06:18;2016-11-11 23:01:52;5 days 10:55:34.000000000;06/11/2016 12:06:18;11/11/2016 23:01:52;5 days 10:55:34;<7D;5,455254629629629;Averia;jira
+87;;;2016-11-06T11:56:14.000+0100;Alejandro.rata;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;-;Media;-;-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Prueba;;;;368976;;Avería Masiva;MAS-348001;;;Medium;MASTicketing;Alejandro.rata;Resuelta;2016-11-06T11:56:31.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-348001;2016-11-06T11:56:34.000+0100;;;-1;2016-11-06 11:56:14;2016-11-06 11:56:34;0 days 00:00:20.000000000;06/11/2016 11:56:14;06/11/2016 11:56:34;0 days 00:00:20;<1D;0,0002314814814814815;Averia;jira
+88;;;2016-11-02T12:38:47.000+0100;marga.fernandez;sd/avería-masiva;;;;;;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";MÁSMÓVIL;NO RECIBE;Alta;TELEFONO;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"02/11/2016 MARGA
+Nombre apellido Cte: ANTONIO RAMON GONZALEZ-ROBLES  ALVAREZ
+Teléfono Acceso:957439364
+Persona Contacto:ANTONIO 
+tlf Contacto:693818233
+Direccion:CALLE ESCRITOR RAFAEL PAVON, 2, 001 I
+VLANs/ VLANc: 3435//98
+
+SINTOMA
+No recibe
+
+PROVISION
+CLIENTE ACTIVO, OT CERRADA 
+
+PRUEBAS PROCEDIMIENTO
+
+*Todas las pruebas se realizarán después de verificar que SI tiene datos y Si emite. Si no, tratar como incomunicado o No emite no recibe
+
+Revisar si el Cliente está dado de Alta (mysim).  SI 
+Revisar si el cliente está afectado por avería Masiva. ¿Publicada? NO 
+Revisar si tiene una averia ya abierta en JIRA  NO 
+Probar llamadas desde varios operadores OK
+Revisar la Portabilidad en CRM  
+Revisar todos los SVA. No molestar, restriccion de llamadas entrantes. Quitar todos
+Revisar si la numeracion esta cargada en el Router. Reset Fabrica 
+Revision de provision desde Mercurio (Aun no disponible)
+Revisar las conexiones de los telefonos. Conectar Router a PTR y telefono directamente al Router, sin MICROFILTROS:
+Sustituir RJ11 Router/Telefono.
+Sustituir Telefono
+Reset del Router
+Acceder en ACS a revisar si esta habilitado el servicio de VoIP.
+Revisar si esta registrado con su numero
+
+
+OTRAS PRUEBAS ADICIONALES
+CLIENTE INDICA QUE PUEDE LLAMAR PERO QUE AL RECIBIR LLAMADAS NO HAY NINGUNA SEÑAL ACUSTICA NI VISUAL
+Y EL QUE LLAMA OYE UN TONO DE LLAMADA EXTRAÑO Y LE TARIFICA A PESAR DE NO COGER LA LLAMADA ";;;;358785;;Avería Masiva;MAS-338227;;;Medium;MASTicketing;marga.fernandez;Descartada;2016-11-02T12:44:59.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-338227;2016-11-02T12:45:05.000+0100;;;-1;2016-11-02 12:38:47;2016-11-02 12:45:05;0 days 00:06:18.000000000;02/11/2016 12:38:47;02/11/2016 12:45:05;0 days 00:06:18;<1D;0,004375;Averia;jira
+89;;;2016-10-31T21:47:19.000+0100;juanjose.vallejos;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;CAIDA TOTAL ENLACE LEBRIJA-SEVILLA;Media;ADST4170004SEV011 // ADST4170004SEV012;VOZ Y DATOS FU;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"ACCESO xDSL
+CAIDA TOTAL ENLACE
+RED OPERADOR TERCEROS
+Hora Inicio : 31/10/16 17:21:40
+
+Descripción Problema : LEBRIJA-SEVILLA
+ADST4170004SEV011
+ADST4170004SEV012
+Servicios Afectados : VOZ Y DATOS FU";;;;357305;;Avería Masiva;MAS-336820;;;Medium;MASTicketing;juanjose.vallejos;Resuelta;2016-11-02T09:59:11.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-336820;2016-11-07T23:04:19.000+0100;;;-1;2016-10-31 21:47:19;2016-11-07 23:04:19;7 days 01:17:00.000000000;31/10/2016 21:47:19;07/11/2016 23:04:19;7 days 01:17:00;>7D;7,053472222222222;Averia;jira
+90;;;2016-10-31T19:30:41.000+0100;miguel.cubillo;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;INCOMUNICADOS CADIZ;Alta;VOZ + DATOS;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"Clientes INCOMUNICADOS:
+
+ACCESO xDSL
+CAIDA TOTAL ENLACE
+RED OPERADOR TERCEROS
+Hora Inicio : 31/10/16 17:03:00
+
+Descripción Problema : VOZ Y DATOS FU
+   1164007 UBRIQUE(CADIZ)
+   SISTEM 1 TIPO D
+Servicios Afectados  : VOZ Y DATOS FU
+
+Clientes con VLAN: 3481";;;;357062;;Avería Masiva;MAS-336591;;;Medium;MASTicketing;miguel.cubillo;Resuelta;2016-11-01T12:04:14.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-336591;2016-11-07T08:49:43.000+0100;;;-1;2016-10-31 19:30:41;2016-11-07 08:49:43;6 days 13:19:02.000000000;31/10/2016 19:30:41;07/11/2016 08:49:43;6 days 13:19:02;<7D;6,554884259259259;Averia;jira
+91;;;2016-10-31T10:57:35.000+0100;jvalentin;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;Avería grave;Media;Entrega de trafico;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Incidencia en recepcion de llamadas;;;;354563;;Avería Masiva;MAS-334218;;;Medium;MASTicketing;jvalentin;Resuelta;2016-10-31T11:09:40.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-334218;2016-11-06T08:50:43.000+0100;;;-1;2016-10-31 10:57:35;2016-11-06 08:50:43;5 days 21:53:08.000000000;31/10/2016 10:57:35;06/11/2016 08:50:43;5 days 21:53:08;<7D;5,911898148148148;Averia;jira
+92;;;2016-10-30T13:51:38.000+0100;ivan.cordon;;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;CAIDA TOTAL ENLACE;Alta;RED OPERADOR TERCEROS;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"Descripción Problema : Caida de varias centrales de JAEN
+
+   BAEZA
+
+   CAZORLA
+
+   ÚBEDA
+
+Servicios Afectados  : FALLO VOZ Y DATOS VOZ ACCESO DIRECTO
+
+ 
+
+ 
+
+Las VLAN asociadas a esas centrales son:
+
+ 
+
+3218
+
+3219
+
+3226
+
+3214
+
+3215
+
+3216
+
+3217";;;;353688;;Avería Masiva;MAS-333380;;;Highest;MASTicketing;ivan.cordon;Resuelta;2016-10-30T17:10:01.000+0100;MÁSMÓVIL;CLOSE;;AVERIA MASIVA Acceso xDSL: BAEZA, CAZORLA, ÚBEDA caida centrales_MAS-333380;2016-11-04T21:55:12.000+0100;;;-1;2016-10-30 13:51:38;2016-11-04 21:55:12;5 days 08:03:34.000000000;30/10/2016 13:51:38;04/11/2016 21:55:12;5 days 08:03:34;<7D;5,335810185185185;Averia;jira
+93;;;2016-10-27T17:10:02.000+0200;juanjose.vallejos;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;CAIDA TOTAL ENLACE;Alta;Central Huelva VALVERDE DEL CAMINO 2168008;"Voz y Datos Fu
+Central Huelva
+VALVERDE DEL CAMINO 2168008
+";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"ACCESO xDSL
+CAIDA TOTAL ENLACE
+RED OPERADOR TERCEROS
+Hora Inicio : 27/10/16 12:32:00
+
+Descripción Problema :
+Caida Central Huelva
+VALVERDE DEL CAMINO 2168008
+Servicios Afectados : Voz y Datos Fu";;;;348510;;Avería Masiva;MAS-328410;;;Medium;MASTicketing;juanjose.vallejos;Resuelta;2016-10-27T19:45:08.000+0200;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-328410;2016-11-02T06:40:55.000+0100;;;-1;2016-10-27 17:10:02;2016-11-02 06:40:55;5 days 13:30:53.000000000;27/10/2016 17:10:02;02/11/2016 06:40:55;5 days 13:30:53;<7D;5,563113425925926;Averia;jira
+94;;;2016-10-23T18:33:51.000+0200;fernando.merino;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;CAIDA TOTAL ENLACE;Alta;RED OPERADOR TERCEROS;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"Buenas noches,
+
+
+ 
+
+os informamos de la siguiente incidencia masiva:
+
+
+ 
+
+Estado incidencia : Asignada
+
+
+ 
+
+ACCESO xDSL
+
+CAIDA TOTAL ENLACE
+
+RED OPERADOR TERCEROS
+
+Hora Inicio : 22/10/16 22:47:00
+
+
+ 
+
+Descripción Problema : VOZ Y DATOS FU
+
+   2962002 ALORA(MALAGA)
+
+   SISTEM1 TIPO D
+
+Servicios Afectados  : VOZ Y DATOS FU
+
+
+ 
+
+
+ 
+
+Muchas gracias y un saludo.
+
+
+ 
+
+Daniel Valdeolivas";;;;332999;;Avería Masiva;MAS-313515;;;Medium;MASTicketing;fernando.merino;Resuelta;2016-10-30T22:59:13.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-313515;2016-11-05T01:32:17.000+0100;;;-1;2016-10-23 18:33:51;2016-11-05 01:32:17;12 days 06:58:26.000000000;23/10/2016 18:33:51;05/11/2016 01:32:17;12 days 06:58:26;>7D;12,290578703703703;Averia;jira
+95;;;2016-10-21T14:53:13.000+0200;jvalentin;sd/avería-masiva;;;;;Operación de Red;;FTTH;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;Avería OLTZ4110005SEV111;Baja;Navegacion;;;;OLTZ4110005SEV111;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"Tenemos quejas de clientes que no pueden navegar de un mismo SLOT de una misma OLT
+ 
+OLTZ4110005SEV111/5
+";;;;330950;;Avería Masiva;MAS-311548;;;Medium;MASTicketing;jvalentin;Resuelta;2016-12-20T09:03:07.000+0100;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-311548;2016-12-26T08:51:46.000+0100;;;-1;2016-10-21 14:53:13;2016-12-26 08:51:46;65 days 17:58:33.000000000;21/10/2016 14:53:13;26/12/2016 08:51:46;65 days 17:58:33;>7D;65,74899305555556;Averia;jira
+96;;;2016-10-20T10:54:13.000+0200;miguel.cubillo;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;FALLO VOZ + DATOS;Alta;DSLAM JAZZTEL;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"Clientes incomunicados:
+
+Clientes caídos en VLAN: 3505 y 3504
+Clientes de CÁDIZ
+
+
+ACCESO xDSL
+CAIDA TOTAL ENLACE
+RED OPERADOR TERCEROS
+Hora Inicio : 20/10/16 08:49:58
+
+Descripción Problema : CAIDA SYSTEM 1 TIPO C
+   ADST1120001CAD111
+   ADST1120001CAD112
+   ALGECIRAS-ALMANZOR  1120001
+Servicios Afectados  : VOZ Y DATOS";;;;325672;;Avería Masiva;MAS-306493;;;Medium;MASTicketing;miguel.cubillo;Resuelta;2016-10-20T10:59:37.000+0200;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-306493;2016-10-25T23:36:06.000+0200;;;-1;2016-10-20 10:54:13;2016-10-25 23:36:06;5 days 12:41:53.000000000;20/10/2016 10:54:13;25/10/2016 23:36:06;5 days 12:41:53;<7D;5,529085648148148;Averia;jira
+97;;;2016-10-20T10:24:11.000+0200;jvalentin;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;Avería abierta por Jazztel;Baja;ADST1120001CAD111 ADST1120001CAD112;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"NOC PROACTIVAS
+
+
+ACCESO xDSL
+CAIDA TOTAL ENLACE
+RED OPERADOR TERCEROS
+Hora Inicio : 20/10/16 08:49:58
+
+Descripción Problema : CAIDA SYSTEM 1 TIPO C
+ADST1120001CAD111
+ADST1120001CAD112
+ALGECIRAS-ALMANZOR 1120001
+Servicios Afectados : VOZ Y DATOS";;;;325483;;Avería Masiva;MAS-306311;;;Medium;MASTicketing;jvalentin;Resuelta;2016-10-20T11:03:20.000+0200;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-306311;2016-10-25T23:36:08.000+0200;;;-1;2016-10-20 10:24:11;2016-10-25 23:36:08;5 days 13:11:57.000000000;20/10/2016 10:24:11;25/10/2016 23:36:08;5 days 13:11:57;<7D;5,549965277777778;Averia;jira
+98;;;2016-10-19T22:00:15.000+0200;jvalentin;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;Avería abierta por Jazztel;Media;ADST1513004LAC011 ADST1513004LAC012;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"ACCESO xDSL
+CAIDA TOTAL ENLACE
+RED OPERADOR TERCEROS
+Hora Inicio : 19/10/16 21:22:20
+
+Descripción Problema : Caidas intermitentes OLEIROS-PERILLO (1513004) System 1 Tipo D ADST1513004LAC011 ADST1513004LAC012 Servicios Afectados : Voz y Datos FU
+";;;;324758;;Avería Masiva;MAS-305613;;;Medium;MASTicketing;jvalentin;Resuelta;2016-10-20T17:25:57.000+0200;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-305613;2016-10-25T23:40:22.000+0200;;;-1;2016-10-19 22:00:15;2016-10-25 23:40:22;6 days 01:40:07.000000000;19/10/2016 22:00:15;25/10/2016 23:40:22;6 days 01:40:07;<7D;6,069525462962963;Averia;jira
+99;;;2016-10-18T19:55:29.000+0200;monica.bellido;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;Fijo emite eco;Alta;ADSL;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"18/10 Yamal Milud
+Cliente manifiesta que su telefono fijo emite ecos durante las llamadas. se han realizado pruebas pertinentes y en su caso escucha ecos leves pero las personas que mantienen conversacion telefonica con el perciben ecos graves y molestos. Solicita subsanacion de esta deficiencia.";;;;320626;;Avería Masiva;MAS-301641;;;Medium;MASTicketing;monica.bellido;Resuelta;2016-10-19T07:59:05.000+0200;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-301641;2016-10-24T22:12:39.000+0200;;;-1;2016-10-18 19:55:29;2016-10-24 22:12:39;6 days 02:17:10.000000000;18/10/2016 19:55:29;24/10/2016 22:12:39;6 days 02:17:10;<7D;6,09525462962963;Averia;jira
+100;;;2016-10-17T20:40:42.000+0200;fernando.merino;sd/avería-masiva;;;;;Operación de Red;;FTTH;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;Sin conexon al router;Media;Sin acceso a Router ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"Se abre incidencia masiva ya que hay varias lineas cuya ultima fecha de conexión es la 17/10/2016 18:44 apareciendo No autorizado en un primer momento y más tarde el dispositivo quizá este apagado. 
+
+Provisioning code 
+3350_19
+2955_9";;;;316920;;Avería Masiva;MAS-298082;;;Medium;MASTicketing;fernando.merino;Resuelta;2016-10-17T21:55:52.000+0200;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-298082;2016-10-22T22:33:20.000+0200;;;-1;2016-10-17 20:40:42;2016-10-22 22:33:20;5 days 01:52:38.000000000;17/10/2016 20:40:42;22/10/2016 22:33:20;5 days 01:52:38;<7D;5,078217592592592;Averia;jira
+101;;;2016-10-17T17:21:17.000+0200;felix.prades;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;incomunicado;Media;adsl;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"DATOS GENERALES
+
+Nombre apellido Cte: alexandra rodrigues
+Telefono Acceso:964048544
+Persona Contacto:alexandra
+tlf Contacto:632289960/932482263
+Dirección:crupo rafa lacena bloque ñ, esc/1 bajos 1
+VLANs/ VLANc: no aparece
+
+SINTOMA
+Incomunicado ADSL
+
+
+PROVISION
+*Aquí ira MySim, cliente activo, instalado, estado de la Ot.
+
+
+
+PRUEBAS PROCEDIMIENTO
+
+Revisar si el Cliente está dado de Alta (mysim).
+Revisar si el cliente está afectado por avería Masiva. ¿Publicada?
+Revisar si tiene una averia ya abierta en JIRA
+Conectado a PTR?
+Revisar luces. Todas las luces apagadas.  
+Revisar luces. DSL apagada.
+DSL encendida, INTERNET apagado. En ese caso, el Router esta sincronizado
+Reset Valores de fábrica. Carga nueva de Plantilla.
+Carga Backup desde ACS.
+
+
+
+OTRAS PRUEBAS ADICIONALES";;;;303878;;Avería Masiva;MAS-285068;;;Medium;MASTicketing;felix.prades;Resuelta;2016-10-17T17:38:21.000+0200;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-285068;2016-10-22T22:28:28.000+0200;;;-1;2016-10-17 17:21:17;2016-10-22 22:28:28;5 days 05:07:11.000000000;17/10/2016 17:21:17;22/10/2016 22:28:28;5 days 05:07:11;<7D;5,21332175925926;Averia;jira
+102;;;2016-10-17T16:17:41.000+0200;mohamed.sillah;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;AVERIA MASIVA;Alta;ADSL;;;;;;38320.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"17/10/2016 mohamed
+
+Buenas tardes ,
+
+Tenemos Averia masiva de caida de router. De momento la asignaremos como caida masiva incomunicado. De momento abrirla como incomunicado hasta recibir el nº de averia que tenemos que asignarla. 
+
+Gracias 
+
+Loli Ruiz 
+ 
+Team Leader
+
+T +34 93 183 26 00| Ext. 47803
+Calle Ávila, 60-64 | 08005 Distrito 22@| Barcelona
+ 
+www.emergiacc.com <http://www.emergiacc.com/>
+ 
+Q Antes de imprimir este mensaje, asegúrate de que es necesario. Proteger el medio ambiente está también en tu mano.
+";;;;303512;;Avería Masiva;MAS-284716;;;Medium;MASTicketing;mohamed.sillah;Resuelta;2016-10-17T16:19:37.000+0200;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-284716;2016-10-22T22:24:08.000+0200;;;-1;2016-10-17 16:17:41;2016-10-22 22:24:08;5 days 06:06:27.000000000;17/10/2016 16:17:41;22/10/2016 22:24:08;5 days 06:06:27;<7D;5,254479166666667;Averia;jira
+103;;;2016-10-17T15:40:40.000+0200;jvalentin;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;Avería grave;Alta;ACS;Afecta principalmente a la voz;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Clientes de ADSL instalaciones recientes que durante la masiva 284244, han tenido problemas de comunicacon con ACS. Estos clientes estan en ACS sin provisioning_code y sin telefono;;;;303209;;Avería Masiva;MAS-284419;;;Medium;MASTicketing;jvalentin;Resuelta;2016-10-18T09:49:27.000+0200;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-284419;2016-10-23T22:12:09.000+0200;;;-1;2016-10-17 15:40:40;2016-10-23 22:12:09;6 days 06:31:29.000000000;17/10/2016 15:40:40;23/10/2016 22:12:09;6 days 06:31:29;<7D;6,271863425925926;Averia;jira
+104;;;2016-10-17T15:28:46.000+0200;sergio.herrerias;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;Incomunicado;Media;Incomunicado;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"DATOS GENERALES
+Nombre apellido Cte: Jesús Moreno
+Teléfono Acceso: 858982987
+Persona Contacto: Maria Antonia Fernández
+tlf Contacto: 858982987
+
+Dirección para envío de router: Ronda Sevilla 44 18320 Santa Fe, Granada
+
+VLANs y VLANc: 3326/8
+
+
+-------------EL QUE CORRESPONDA------------
+
+
+PROVISIÓN
+
+Aquí irá MySim, cliente activo, instalado, estado de la Ot. Cerrada
+
+PRUEBAS PROCEDIMIENTO
+
+Revisar si el Cliente está dado de Alta (mysim). SI 
+Revisar si el cliente está afectado por avería Masiva. ¿Publicada?NO
+Revisar si tiene una avería ya abierta en JIRA. NO
+Confirmaremos que los cortes, afectan tanto a los servicios de Voz como de Datos. Revisión de Luces de Router. POWER, DSL, WLAN, INTERNET Y PHONE ENCENDIDAS.
+Comprobar la velocidad teórica 
+Velocidad actual15139 kbps / 1322 kbps
+Velocidad máxima17500 kbps / 1588 kbps
+LA VELOCIDAD ES BUENA PERO TIENE CORTES CONTINUAMENTE Y NO LE PERMITEN NAVEGAR.
+Reset Valores de fábrica. Carga nueva de Plantilla. SIGUE CON EL MISMO PROBLEMA, NO PUEDE NAVEGAR,
+Revisaremos en ACS los datos de atenuación y ruido, directamente con el Router en el PTR, sin otros dispositivos conectados. Solo debe estar Alimentación + Rj 11 PTR-Router. 
+Revisar en ACS Monitoring posibles fluctuaciones y cambios de IP (Reinicios)
+
+OTRAS PRUEBAS ADICIONALES
+";;;;303158;;Avería Masiva;MAS-284370;;;Medium;MASTicketing;sergio.herrerias;Resuelta;2016-10-17T15:30:11.000+0200;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-284370;2016-10-22T22:21:29.000+0200;;;-1;2016-10-17 15:28:46;2016-10-22 22:21:29;5 days 06:52:43.000000000;17/10/2016 15:28:46;22/10/2016 22:21:29;5 days 06:52:43;<7D;5,286608796296297;Averia;jira
+105;;;2016-10-17T15:08:55.000+0200;jesus.abanades;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;MASIVA ADSL;Alta;ADSL's;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"AVERIA MASIVA PARA LAS SIGUIENTES VLANS:
+
+3034  COSLADA   
+3035 SAN FERNANDO
+3024 ALCALÁ DE HENARES
+3025 ALCALÁ DE HENARES";;;;303024;;Avería Masiva;MAS-284244;;;High;MASTicketing;jesus.abanades;Resuelta;2016-10-17T19:01:58.000+0200;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-284244;2016-10-22T22:31:00.000+0200;;;-1;2016-10-17 15:08:55;2016-10-22 22:31:00;5 days 07:22:05.000000000;17/10/2016 15:08:55;22/10/2016 22:31:00;5 days 07:22:05;<7D;5,307002314814815;Averia;jira
+106;;;2016-10-11T16:39:05.000+0200;jvalentin;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;Avería crítica;Alta;DSLAM;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Sincroniza y no navega VLANs3001 y 3002;;;;289742;;Avería Masiva;MAS-271460;;;Medium;MASTicketing;jvalentin;Resuelta;2016-10-14T08:18:43.000+0200;;CLOSE;;AVERIA_MASIVA_MAS-271460;2016-10-19T22:56:30.000+0200;;;-1;2016-10-11 16:39:05;2016-10-19 22:56:30;8 days 06:17:25.000000000;11/10/2016 16:39:05;19/10/2016 22:56:30;8 days 06:17:25;>7D;8,262094907407407;Averia;jira
+107;;;2016-10-11T16:06:27.000+0200;miguel.cubillo;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;FALLO VOZ;Alta;MERCURIO / IMS;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"Clientes con problemas en la línea de voz:
+- Al recibir llamadas no da tono.
+- Tras 2 tonos, la llamada se corta (llamando desde Orange).";;;;289613;;Avería Masiva;MAS-271333;;;Medium;MASTicketing;miguel.cubillo;Resuelta;2016-10-16T21:39:15.000+0200;MÁSMÓVIL;CLOSE;;AVERIA_MASIVA_MAS-271333;2016-10-21T23:51:07.000+0200;;;-1;2016-10-11 16:06:27;2016-10-21 23:51:07;10 days 07:44:40.000000000;11/10/2016 16:06:27;21/10/2016 23:51:07;10 days 07:44:40;>7D;10,322685185185184;Averia;jira
+108;;;2016-10-11T16:03:49.000+0200;jose.gonzalez;sd/avería-masiva;;;;;Operación de Red;;FTTH;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;voz y datos;Media;voz y daatos;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"Clientes en CTO 
+029 41 081 465/
+029 41 081 463/
+029 41 081 462
+/029 41 081 461
+
+caidos a las 08:20:34";;;;289602;;Avería Masiva;MAS-271322;;;Medium;MASTicketing;jose.gonzalez;Resuelta;2016-10-12T11:21:49.000+0200;;CLOSE;;AVERIA_MASIVA_MAS-271322;2016-10-17T22:37:48.000+0200;;;-1;2016-10-11 16:03:49;2016-10-17 22:37:48;6 days 06:33:59.000000000;11/10/2016 16:03:49;17/10/2016 22:37:48;6 days 06:33:59;<7D;6,273599537037037;Averia;jira
+109;;;2016-10-11T16:03:46.000+0200;mohamed.sillah;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;cliente no tiene liñia en su domicilio.;Alta;adsl;;;;;;28012.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;cliente se encuentra sin servicio, desde esta mañana, entra dentro de la zona afectada en Madrid.;;;;289601;;Avería Masiva;MAS-271321;;;Medium;MASTicketing;mohamed.sillah;Resuelta;2016-10-11T16:07:25.000+0200;;CLOSE;;AVERIA_MASIVA_MAS-271321;2016-10-17T08:40:29.000+0200;;;-1;2016-10-11 16:03:46;2016-10-17 08:40:29;5 days 16:36:43.000000000;11/10/2016 16:03:46;17/10/2016 08:40:29;5 days 16:36:43;<7D;5,692164351851852;Averia;jira
+110;;;2016-10-10T11:42:09.000+0200;fernando.merino;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;ACCESO xDSL Caída Figueres ;Alta;Servicios Afectados : voz y datos;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"Buenos días,
+
+Os informamos de la siguiente incidencia masiva:
+
+Estado incidencia : Asignada
+
+ACCESO xDSL
+CAIDA TOTAL ENLACE
+AJENA OPERADOR JAZZTEL
+Hora Inicio : 10/10/16 10:53:00
+
+Descripción Problema : Caída Figueres 1763009 Servicios Afectados : voz y datos fu
+
+
+Muchas gracias y un saludo.
+";;;;269026;;Avería Masiva;MAS-250927;;;Medium;MASTicketing;fernando.merino;Resuelta;2016-10-10T12:21:30.000+0200;;CLOSE;;AVERIA_MASIVA_MAS-250927;2016-10-10T12:21:33.000+0200;;;-1;2016-10-10 11:42:09;2016-10-10 12:21:33;0 days 00:39:24.000000000;10/10/2016 11:42:09;10/10/2016 12:21:33;0 days 00:39:24;<1D;0,02736111111111111;Averia;jira
+111;;;2016-10-08T16:04:49.000+0200;juanjose.vallejos;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;CAIDA ENLACE EQUIPO CASTELLON ADST1265008CAS011;Alta;CAIDA ENLACE EQUIPO ADST1265008CAS011;ADST1265008CAS011 Servicios Afectados : VOZ Y DATO FU;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"JAZZTEL
+AVERIA MASIVA Nº 000000003712487
+
+ACCESO RED TERCEROS
+CAIDA ENLACE EQUIPO
+RED OPERADOR TERCEROS
+Hora Inicio : 08/10/16 13:40:17
+
+Descripción Problema : ADST1265008CAS011 Servicios Afectados : VOZ Y DATO FU";;;;267126;;Avería Masiva;MAS-249065;;;Medium;MASTicketing;juanjose.vallejos;Resuelta;2016-10-09T10:41:10.000+0200;;CLOSE;;AVERIA_MASIVA_MAS-249065;2016-10-14T10:41:10.000+0200;;;-1;2016-10-08 16:04:49;2016-10-14 10:41:10;5 days 18:36:21.000000000;08/10/2016 16:04:49;14/10/2016 10:41:10;5 days 18:36:21;<7D;5,775243055555555;Averia;jira
+112;;;2016-10-08T11:47:06.000+0200;jose.gonzalez;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;NO RECIBE;Media;VOZ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"Cliente con numeracion nueva de MASMOVIL y de la zona de VALENCIA no reciben llamadas de ninguna operadora, salta locucion de ""Informacion gratuita de ORANGE.";;;;266739;;Avería Masiva;MAS-248684;;;Medium;MASTicketing;jose.gonzalez;Resuelta;2016-10-08T13:55:49.000+0200;;CLOSE;;AVERIA_MASIVA_MAS-248684;2016-10-13T21:31:01.000+0200;;;-1;2016-10-08 11:47:06;2016-10-13 21:31:01;5 days 09:43:55.000000000;08/10/2016 11:47:06;13/10/2016 21:31:01;5 days 09:43:55;<7D;5,4054976851851855;Averia;jira
+113;;;2016-10-07T18:10:40.000+0200;jvalentin;sd/avería-masiva;;;;;Operación de Red;;FTTH;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;Avería grave;Alta;OLT;;;;;OLTZ2812001MAD121;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Averia OLT OLTZ2812001MAD121;;;;250527;;Avería Masiva;MAS-232479;;;Medium;MASTicketing;jvalentin;Resuelta;2016-10-07T22:05:53.000+0200;;CLOSE;;AVERIA_MASIVA_MAS-232479;2016-10-07T22:06:00.000+0200;;;-1;2016-10-07 18:10:40;2016-10-07 22:06:00;0 days 03:55:20.000000000;07/10/2016 18:10:40;07/10/2016 22:06:00;0 days 03:55:20;<1D;0,16342592592592592;Averia;jira
+114;fernando.merino;;2016-10-06T15:52:30.000+0200;fernando.merino;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;Averia servicio de voz;Alta; servicio de voz;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Caida en la BBDD. clientes afectados: KCO y kamailio proxyout. Hora Inicio: 15:15 hora solucion: 15:35. Informado via sms;;;;246093;;Avería Masiva;MAS-228197;;;Medium;MASTicketing;fernando.merino;Resuelta;2016-10-06T15:54:47.000+0200;;CLOSE;;AVERIA_MASIVA_MAS-228197;2016-10-06T15:56:31.000+0200;;;-1;2016-10-06 15:52:30;2016-10-06 15:56:31;0 days 00:04:01.000000000;06/10/2016 15:52:30;06/10/2016 15:56:31;0 days 00:04:01;<1D;0,002789351851851852;Averia;jira
+115;;;2016-10-05T17:31:56.000+0200;juanjose.vallejos;sd/avería-masiva;;;;;Operación de Red;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;AVERIA MASIVA ACCESO xDSL;Alta;CAIDA TOTAL ENLACE;VOZ Y DATOS FU;;CENTRAL ATARFE(GRANADA );;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;0.0;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"ACCESO xDSL
+CAIDA TOTAL ENLACE
+CABLEADO RED
+Hora Inicio : 05/10/16 14:54:09
+
+Descripción Problema : CAIDA TOTAL ENLACE
+ATARFE(GRANADA )
+IVR:SI
+Servicios Afectados : VOZ Y DATOS FU";;;;242876;;Avería Masiva;MAS-225077;;;Medium;MASTicketing;juanjose.vallejos;Resuelta;2016-10-05T22:43:03.000+0200;;CLOSE;;AVERIA_MASIVA_MAS-225077;2016-10-11T00:31:59.000+0200;;;-1;2016-10-05 17:31:56;2016-10-11 00:31:59;5 days 07:00:03.000000000;05/10/2016 17:31:56;11/10/2016 00:31:59;5 days 07:00:03;<7D;5,291701388888889;Averia;jira
+116;;;2016-10-04T19:37:58.000+0200;sara.fernandez;sd/avería-masiva;;;;;SAT 2º Nivel Averías;;ADSL;Operación de Red;;;;;;;;;;"{panel:bgColor=#EAECFF}
+No es posible crear tickets desde JIRA. Para crear un ticket debes acceder a través del Portal de usuario:
+https://jira.masmovil.com/servicedesk/customer/portal/1
+
+Gracias.
+{panel}";"<div class=""aui-message aui-message-error"">
+    <p class=""No es posible crear ticket"">
+        <strong>Error!</strong>
+    </p>
+    <p>Para crear un ticket en este proyecto debes usar el portal de usuario:</p>
+<a href=""https://jira.masmovil.com/servicedesk/customer/portal/1"" >https://jira.masmovil.com/servicedesk/customer/portal/1</a>
+</div>
+";Operación de Red;6226028;Alta;82.213.226.7;no tiene ni servicio de linea fija ni le funciona el router de internet ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;N;;;;;;;NO;NO;;;-;;;A continuación introduzca en un comentario la información que desea envía a Jazztel. La longitud máxima es 250 caracteres.;;;;;;;0.0;;;0.0;;;0.0;;;;;;0.0;;;0.0;;;0.0;;0.0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"04/10/2016 sara
+DATOS GENERALES
+
+
+Nombre apellido Cte: jorge GIL ZUARA
+Telefono Acceso:923091277
+Persona Contacto:jorge
+tlf Contacto:687272656
+Dirección:calle candido albarran nº 50-52 1ºb salamanca 
+VLANs/ VLANc: 2727
+
+SINTOMA
+Incomunicado ADSL
+
+
+PROVISION
+*Aquí ira MySim, cliente activo, instalado, estado de la Ot.cerrada activa instalado 
+
+
+
+PRUEBAS PROCEDIMIENTO
+
+Revisar si el Cliente está dado de Alta (mysim).si 
+Revisar si el cliente está afectado por avería Masiva. ¿Publicada?no
+Revisar si tiene una averia ya abierta en JIRA: no
+Revisar luces. Todas las luces apagadas.  : todas menso wlan y power 
+Revisar luces. DSL apagada.: si 
+DSL encendida, INTERNET apagado. En ese caso, el Router esta sincronizado: no sincroniza no reseteo 
+Reset Valores de fábrica. Carga nueva de Plantilla.:no sincroniza no se puede resetear 
+Carga Backup desde ACS: no sincroniza. no hay cambiso 
+
+
+
+OTRAS PRUEBAS ADICIONALES: no hacemos mas pruebas escalo nivel 2 ";;;;239163;;Avería Masiva;MAS-221474;;;Medium;MASTicketing;sara.fernandez;Resuelta;2016-10-05T16:43:31.000+0200;;CLOSE;;AVERIA_MASIVA_MAS-221474;2016-10-11T00:21:38.000+0200;;;-1;2016-10-04 19:37:58;2016-10-11 00:21:38;6 days 04:43:40.000000000;04/10/2016 19:37:58;11/10/2016 00:21:38;6 days 04:43:40;<7D;6,196990740740741;Averia;jira

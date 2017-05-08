@@ -20,6 +20,9 @@ jira_struct={}
 opts={}
 flag_verbose=False
 flag_dump_raw=True
+label_tecnologia='Tecnologia (Servicio) inicial'
+label_dpto_destino='Departamento destino'
+label_dpto_origen='Departamento origen'
 
 nivel_servicio={
   'Atencion Al Cliente':'N1',
@@ -92,7 +95,8 @@ def jira_get_fields():
             jira_struct['custom'][f_id]=f_name
         else:
             jira_struct['standard'][f_id]=f_name
-        #print(str(f_id)+","+f_name)
+        if flag_verbose:
+            print(str(f_id)+","+f_name)
     print( "Done\n" )
 
 def jira_translate_ticket(issue):
@@ -205,11 +209,11 @@ def set_open_time(row):
 
 # ------------------------------------------------------------------
 def fix_tipo_incidencia(row):
-  if row['Tecnologia (Servicio)'] == '':
-     row['Tecnologia (Servicio)'] = row['Tipo Ticket Incidencia']
+  if row[label_tecnologia] == '':
+     row[label_tecnologia] = row['Tipo Ticket Incidencia']
 
   if row['Tipo Ticket Incidencia'] == '':
-     row['Tipo Ticket Incidencia'] = row['Tecnologia (Servicio)']
+     row['Tipo Ticket Incidencia'] = row[label_tecnologia]
 
 # ------------------------------------------------------------------
 def jira_calculate_columns(df):
@@ -226,7 +230,9 @@ def jira_calculate_columns(df):
     get_service_type=lambda x: '' if not x or not '-' in str(x) else str(x).split('-')[0]
     get_service_problem=lambda x: '' if not x or not '-' in str(x) else str(x).split('-')[1]
     set_support_level=lambda x: 'Otros' if not x in nivel_servicio else nivel_servicio[x]
-    adjust_tipo_inc=lambda x: tipo_inc_por_tech[x] if x in tipo_inc_por_tech else 'OTROS'
+    adjust_tipo_inc=lambda x: tipo_inc_por_tech[str(x).upper()] if str(x).upper() in tipo_inc_por_tech else 'OTROS'
+    get_canal=lambda x: 'unknown' if not x else x if x in ('web.cable','MasBss') else 'operador'
+    check_excepciones=lambda x: '' if not x else 'QUANTIS' if 'quantis' in x.lower() else ''
     # df.apply( fix_tipo_incidencia, axis=1 )
     
     now = datetime.now()
@@ -254,12 +260,14 @@ def jira_calculate_columns(df):
     df['Averia/Config']=df.apply( set_workdone, axis=1 )
     df['Sistema Origen']='jira'
     df['url_issue']=df['key'].map( url_ticket )
-    df['Servicio Agrupado']=df['Tecnologia (Servicio)'].map( get_service_grouped )
-    df['ServiceLine']=df['Departamento'].map( set_support_level )
+    df['Servicio Agrupado']=df[label_tecnologia].map( get_service_grouped )
+    df['ServiceLine']=df[label_dpto_destino].map( set_support_level )
     df['JIRA-Tipo Ticket Incidencia']=df['Tipo Ticket Incidencia']
     df['JIRA-Tipo Ticket Reclamacion']=df['Tipo Ticket Reclamacion']
     df['JIRA-Tipo Ticket Solicitud']=df['Tipo Ticket Solicitud']
-    df['JIRA-Tecnologia (Servicio)']=df['Tecnologia (Servicio)']
+    df['JIRA-Tecnologia (Servicio)']=df[label_tecnologia]
+    df['fmt_canal']=df['reporter'].map( get_canal )
+    df['fmt_excepciones']=df['Nombre de cliente'].map( check_excepciones )
 
     for index, row in df.iterrows():
       # ---------------------
@@ -270,9 +278,8 @@ def jira_calculate_columns(df):
         #implementar el else:
         #***** ATENCION POSIBLE PUNTO DE FALLO DE DATOS ********
 
-        tecno    = row['Tecnologia (Servicio)']
         tipo_inc = row['Tipo Ticket Incidencia']
-        tecno    = row['Tecnologia (Servicio)']
+        tecno    = row[label_tecnologia]
         problem  = ''
         #print("--> {} incidencia --> tecno:{}, tipo_inc:{}".format(index,tecno,tipo_inc))
         if tecno == '':
@@ -290,7 +297,7 @@ def jira_calculate_columns(df):
         problem="" if not tecno or not '-' in str(tecno) else str(tecno).split('-')[1].strip()
         x = str(tipo_inc)
         df.loc[index,'Tipo Ticket Incidencia']='' if not x else x if not '-' in x else x.split('-')[0].strip()
-        df.loc[index,'Tecnologia (Servicio)']=tecno2
+        df.loc[index,label_tecnologia]=tecno2
         df.loc[index,'Problema reportado']=problem
         #print("-->    PASO 2: tipo_inc:{}, tecno:{}, problem:{}".format(tipo_inc,tecno2,problem))
       # ---------------------
@@ -308,7 +315,7 @@ def jira_calculate_columns(df):
         df.loc[index,'Problema reportado']='' if not x or not '-' in str(x) else str(x).split('-')[1].strip()
         #print( "{} //// {}".format( row['Tipo Ticket Solicitud'], row['Problema reportado'] ))
     # ---------------------------------------------
-    df['Tipo Ticket Incidencia']=df['Tecnologia (Servicio)'].map( adjust_tipo_inc )
+    df['Tipo Ticket Incidencia']=df[label_tecnologia].map( adjust_tipo_inc )
 
     # ====================================================================
     # SMART PROCESSING !!!
@@ -337,25 +344,25 @@ def jira_calculate_columns(df):
       if row['issuetype'] == 'Incidencia' and row['Tipo Ticket Incidencia']=='':
         if any(word in txt for word in ['adsl', 'portab']):
           df.loc[index,'Tipo Ticket Incidencia']='**DATOS'
-          df.loc[index,'Tecnologia (Servicio)']='**ADSL'
+          df.loc[index,label_tecnologia]='**ADSL'
         elif 'amlt' in txt:
           df.loc[index,'Tipo Ticket Incidencia']='**VOZ'
-          df.loc[index,'Tecnologia (Servicio)']='**AMLT'
+          df.loc[index,label_tecnologia]='**AMLT'
         elif 'movil' in txt:
           df.loc[index,'Tipo Ticket Incidencia']='**MOVIL'
-          df.loc[index,'Tecnologia (Servicio)']='**MOVIL'
+          df.loc[index,label_tecnologia]='**MOVIL'
         elif 'dominio' in txt:
           df.loc[index,'Tipo Ticket Incidencia']='**OTROS'
-          df.loc[index,'Tecnologia (Servicio)']='**CLOUD'
+          df.loc[index,label_tecnologia]='**CLOUD'
         elif any(word in txt for word in ['pbx', 'centralita', 'extensi']):
           df.loc[index,'Tipo Ticket Incidencia']='**VOZ'
-          df.loc[index,'Tecnologia (Servicio)']='**MERCURIO'
+          df.loc[index,label_tecnologia]='**MERCURIO'
         elif any(word in txt for word in ['voz', 'llama', 'emite', 'escucha']):
           df.loc[index,'Tipo Ticket Incidencia']='**VOZ'
-          df.loc[index,'Tecnologia (Servicio)']='**VOZ'
+          df.loc[index,label_tecnologia]='**VOZ'
         elif 'corre' in txt:
           df.loc[index,'Tipo Ticket Incidencia']='**OTROS'
-          df.loc[index,'Tecnologia (Servicio)']='**EMAIL'
+          df.loc[index,label_tecnologia]='**EMAIL'
 
 # ------------------------------------------------------------------
 def jira_extract_and_translate_columns(df):
@@ -370,8 +377,8 @@ def jira_extract_and_translate_columns(df):
         'resolution':'Resolucion',
         'fmt_created':'Creada',
         'fmt_updated':'Actualizada',
-        'Departamento':'Departamento',
-        'Departamento Origen':'Departamento Origen',
+        label_dpto_destino:label_dpto_destino,
+        label_dpto_origen:label_dpto_origen,
         'resolutiondate':'Resuelta',
         'Identificador de Cliente':'Identificador de Cliente',
         'Tipo Cliente':'Tipo Cliente',
@@ -380,7 +387,7 @@ def jira_extract_and_translate_columns(df):
         'Tipo Ticket Incidencia':'Tipo Ticket Incidencia',
         'Tipo Ticket Reclamacion':'Tipo Ticket Reclamacion',
         'Tipo Ticket Solicitud':'Tipo Ticket Solicitud',
-        'Tecnologia (Servicio)':'Tecnologia (Servicio)',
+        label_tecnologia:label_tecnologia,
         'Segmento Cliente':'Segmento Cliente',
         'Duracion':'Duracion',
         'Tramo Duracion':'Tramo Duracion',
@@ -398,7 +405,9 @@ def jira_extract_and_translate_columns(df):
         'ServiceLine':'ServiceLine',
         'jira_parent':'jira_parent',
         'jira_parent_type':'jira_parent_type',
-        'jira_parent_relation':'jira_parent_relation'
+        'jira_parent_relation':'jira_parent_relation',
+        'fmt_canal':'fmt_canal',
+        'fmt_excepciones':'fmt_excepciones'
     }
     order=[
         'issuetype',
@@ -411,8 +420,8 @@ def jira_extract_and_translate_columns(df):
         'resolution',
         'fmt_created',
         'fmt_updated',
-        'Departamento',
-        'Departamento Origen',
+        label_dpto_destino,
+        label_dpto_origen,
         'resolutiondate',
         'Identificador de Cliente',
         'Tipo Cliente',
@@ -421,7 +430,7 @@ def jira_extract_and_translate_columns(df):
         'Tipo Ticket Incidencia',
         'Tipo Ticket Reclamacion',
         'Tipo Ticket Solicitud',
-        'Tecnologia (Servicio)',
+        label_tecnologia,
         'Segmento Cliente',
         'Duracion',
         'Tramo Duracion',
@@ -439,7 +448,9 @@ def jira_extract_and_translate_columns(df):
         'ServiceLine',
         'jira_parent',
         'jira_parent_type',
-        'jira_parent_relation'
+        'jira_parent_relation',
+        'fmt_canal',
+        'fmt_excepciones'
     ]
     print("* Filtering and processing report columns")
     #print("* Extracting columns:"+str(order))
@@ -486,10 +497,13 @@ def jira_query(title,item):
         startAt += curr_rows
     df = pd.DataFrame(issues)
     jira_replace_headers(df)
-    jira_calculate_columns(df)
     if flag_dump_raw:
         print( "* Dumping to raw data file:" + item["raw"])
-        df.to_csv(item["raw"]+"_raw.csv", sep=';')
+        df.to_csv(item["raw"]+"_raw1.csv", sep=';')
+    jira_calculate_columns(df)
+    if flag_dump_raw:
+        print( "* Dumping to raw-translated data file:" + item["raw"])
+        df.to_csv(item["raw"]+"_raw2.csv", sep=';')
 
     df1 = jira_extract_and_translate_columns(df)
     print( "* Dumping to filtered file:" + item["file"])
@@ -539,10 +553,12 @@ def generate_report(prefix, raw_prefix, from_date, to_date):
         "file": "{}_open_from_date".format(prefix),
         "raw": "{}_open_from_date".format(raw_prefix),
         "query": 'project = MASEMP AND issuetype in standardIssueTypes() AND created >= {} AND created <= {} ORDER BY createdDate DESC, resolution DESC'.format(from_date, to_date)}
+    if True:
       queries_jira['MASEMP / TODAS / ABIERTAS']={
         "file": "{}_currently_open".format(prefix),
         "raw": "{}_currently_open".format(raw_prefix),
         "query": 'project = MASEMP AND status in (CREADA, "In Progress") ORDER BY createdDate DESC, resolution DESC'}
+    if True:
       queries_jira['MASEMP / TODAS / CLOSED FROM DATE']={
         "file": "{}_closed_from_date".format(prefix),
         "raw": "{}_closed_from_date".format(raw_prefix),

@@ -1,5 +1,5 @@
 #=====================================================================
-# REPORITNG FROM JIRA
+# REPORTING FROM JIRA
 #=====================================================================
 # Author: Alvaro Paricio
 #=====================================================================
@@ -19,13 +19,10 @@ jira_struct={}
 
 opts={}
 
-flag_get_opened=False
-flag_get_closed=True
-flag_get_current=False
-flag_get_cableops=False
-flag_get_webcable=False
-flag_get_masivas_red=False
-flag_get_masivas_sist=False
+flag_get_masivas_red=True
+flag_get_masivas_sist=True
+
+flag_extract_and_translate=False
 
 flag_verbose=False
 flag_dump_raw=True
@@ -40,20 +37,17 @@ nivel_servicio={
   'Atencion Al Cliente - ATENCION OPERADORES':'N1',
   'Atencion Al Cliente - SOPORTE EMPRESAS':'N1',
   'Atencion Al Cliente - SOPORTE OPERADORES':'N1',
-  'Atencion Al Cliente - CONFIGURACIÃ“N Y AUTOINSTALABLES':'N1',
   'Atencion Al Cliente - MANTENIMIENTO EMPRESAS':'N2',
   'Atencion Al Cliente - MANTENIMIENTO NEUTRA':'N2',
   'Atencion Al Cliente - MANTENIMIENTO OPERADORES':'N2',
   'Atencion Al Cliente - MANTENIMIENTO RESELLER':'N2',
   'Departamento Financiero':'N3-FIN',
   'Departamento Financiero - FINANCIERO':'N3-FIN',
-  'Departamento Red':'N2',
   'Departamento Red - ING.DATOS':'N2',
   'Departamento Red - ING.VOZ':'N2',
   'Departamento Red - O&M':'N2',
   'Departamento Red - PLATAFORMAS':'N2',
-  'Departamento Red - INFRAESTRUCTURAS':'N2',
-  'Departamento Sistemas':'N2',
+  'Departamento Sistemas':'N1',
   'Departamento Sistemas - MVNO':'N1',
   'Departamento Sistemas - SISTEMAS':'N1',
   'Implantacion - IMPLANTACION-INCIDENCIAS':'SD',
@@ -276,21 +270,22 @@ def jira_calculate_columns(df):
     df['Duracion']=df['timeval_diff'].map( get_duration )
     df['Sin Actualizar']=df['timeval_unattended'].map( get_duration )
     df['Actualizacion OK']=df['timeval_unattended'].map( get_sla_is_attended )
-    df['Segmento Cliente']=''
-    df['Averia/Config']=''
-    df['Averia/Config']=df.apply( set_workdone, axis=1 )
-    df['Sistema Origen']='jira'
-    df['url_issue']=df['key'].map( url_ticket )
-    df['Servicio Agrupado']=df[label_tecnologia].map( get_service_grouped )
-    df['ServiceLine']=df[label_dpto_destino].map( set_support_level )
-    df['JIRA-Tipo Ticket Incidencia']=df['Tipo Ticket Incidencia']
-    df['JIRA-Tipo Ticket Reclamacion']=df['Tipo Ticket Reclamacion']
-    df['JIRA-Tipo Ticket Solicitud']=df['Tipo Ticket Solicitud']
-    df['JIRA-Tecnologia (Servicio)']=df[label_tecnologia]
-    df['fmt_canal']=df['reporter'].map( get_canal )
-    df['fmt_excepciones']=df['Nombre de cliente'].map( check_excepciones )
+    if False:
+     df['Segmento Cliente']=''
+     df['Averia/Config']=''
+     df['Averia/Config']=df.apply( set_workdone, axis=1 )
+     df['Sistema Origen']='jira'
+     df['url_issue']=df['key'].map( url_ticket )
+     df['Servicio Agrupado']=df[label_tecnologia].map( get_service_grouped )
+     df['ServiceLine']=df[label_dpto_destino].map( set_support_level )
+     df['JIRA-Tipo Ticket Incidencia']=df['Tipo Ticket Incidencia']
+     df['JIRA-Tipo Ticket Reclamacion']=df['Tipo Ticket Reclamacion']
+     df['JIRA-Tipo Ticket Solicitud']=df['Tipo Ticket Solicitud']
+     df['JIRA-Tecnologia (Servicio)']=df[label_tecnologia]
+     df['fmt_canal']=df['reporter'].map( get_canal )
+     df['fmt_excepciones']=df['Nombre de cliente'].map( check_excepciones )
 
-    for index, row in df.iterrows():
+     for index, row in df.iterrows():
       # ---------------------
       if row['issuetype'] == 'Incidencia':
         if row['issuetype'].lower() == "incidencia" and "config" in row['Averia/Config'].lower():
@@ -335,13 +330,13 @@ def jira_calculate_columns(df):
         df.loc[index,'Tipo Ticket Solicitud']='' if not x else x if not '-' in x else x.split('-')[0].strip()
         df.loc[index,'Problema reportado']='' if not x or not '-' in str(x) else str(x).split('-')[1].strip()
         #print( "{} //// {}".format( row['Tipo Ticket Solicitud'], row['Problema reportado'] ))
-    # ---------------------------------------------
-    df['Tipo Ticket Incidencia']=df[label_tecnologia].map( adjust_tipo_inc )
+     # ---------------------------------------------
+     df['Tipo Ticket Incidencia']=df[label_tecnologia].map( adjust_tipo_inc )
 
-    # ====================================================================
-    # SMART PROCESSING !!!
-    # ====================================================================
-    for index, row in df.iterrows():
+     # ====================================================================
+     # SMART PROCESSING !!!
+     # ====================================================================
+     for index, row in df.iterrows():
       txt = row['summary'].lower()
       # ---------------------
       # STEP 1: QUALIFY RIGHT TYPE OF ISSUE
@@ -529,10 +524,12 @@ def jira_query(title,item):
         print( "* Dumping to raw-translated data file:" + item["raw"])
         df.to_csv(item["raw"]+"_raw2.csv", sep=';')
 
-    df1 = jira_extract_and_translate_columns(df)
-    print( "* Dumping to filtered file:" + item["file"])
-    # df.to_csv(out_file, sep=';', encoding='utf-8')
-    df1.to_csv(item["file"]+".csv", sep=';')
+    if flag_extract_and_translate:
+      df1 = jira_extract_and_translate_columns(df)
+      print( "* Dumping to filtered file:" + item["file"])
+      # df.to_csv(out_file, sep=';', encoding='utf-8')
+      df1.to_csv(item["file"]+".csv", sep=';')
+
     print( "* Done\n" )
     return issues
 
@@ -544,77 +541,18 @@ def generate_report(prefix, raw_prefix, from_date, to_date):
     jira_get_fields()
     
     queries_jira= {}
-#    if False:
-#      queries_jira['MASEMP / SOLICITUDES / ABIERTAS']={
-#        "file": "b2b_jira_solic_open",
-#        "raw": "b2b_jira_solic_open",
-#        "query": 'project = MASEMP AND issuetype = "Incidencia Cliente" AND status in (CREADA, "In Progress") ORDER BY createdDate DESC, resolution DESC'}
-#      queries_jira['MASEMP / RECLAMACIONES / ABIERTAS']={
-#        "file": "b2b_jira_reclam_open",
-#        "raw": "b2b_jira_reclam_open",
-#        "query": 'project = MASEMP AND issuetype = Reclamacion AND status in (CREADA, "In Progress") ORDER BY createdDate DESC, resolution DESC'}
-#      queries_jira['MASEMP / INCIDENCIAS / ABIERTAS']={
-#        "file": "b2b_jira_incid_open",
-#        "raw": "b2b_jira_incid_open",
-#        "query": 'project = MASEMP AND issuetype = Solicitud AND status in (CREADA, "In Progress") ORDER BY createdDate DESC, resolution DESC'}
-#
-#    if False:
-#      queries_jira['MASEMP / TODAS / ABIERTAS']={
-#        "file": "{}_b2b_jira_all_currently_open".format(prefix),
-#        "raw": "{}_b2b_jira_all_currently_open".format(raw_prefix),
-#        "query": 'project = MASEMP AND status in (CREADA, "In Progress") ORDER BY createdDate DESC, resolution DESC'}
-#      queries_jira['MASEMP / TODAS / OPEN_WEEK']={
-#        "file": "{}_b2b_jira_all_weekly_open".format(prefix),
-#        "raw": "{}_b2b_jira_all_weekly_open".format(raw_prefix),
-#        "query": 'project = MASEMP AND issuetype in standardIssueTypes() AND created >= {} AND created <= {} ORDER BY createdDate DESC, resolution DESC'.format(from_date, to_date)}
-#      queries_jira['MASEMP / TODAS / CLOSED_WEEK']={
-#        "file": "{}_b2b_jira_weekly_closed".format(prefix),
-#        "raw": "{}_b2b_jira_weekly_closed".format(raw_prefix),
-#        "query": 'project = MASEMP AND issuetype in standardIssueTypes() AND resolved >= {} AND resolved <= {} ORDER BY createdDate DESC, resolution DESC'.format(from_date, to_date)}
 
-
-    if flag_get_opened:
-      queries_jira['MASEMP / TODAS / OPEN FROM DATE']={
-        "file": "{}_open_from_date".format(prefix),
-        "raw": "{}_open_from_date".format(raw_prefix),
-        "query": 'project = MASEMP AND issuetype in standardIssueTypes() AND created >= {} AND created <= {} ORDER BY createdDate DESC, resolution DESC'.format(from_date, to_date)}
-
-    if flag_get_current:
-      queries_jira['MASEMP / TODAS / CURRENTLY OPEN']={
-        "file": "{}_currently_open".format(prefix),
-        "raw": "{}_currently_open".format(raw_prefix),
-        "query": 'project = MASEMP AND status in (CREADA, "In Progress") ORDER BY createdDate DESC, resolution DESC'}
-
-    if flag_get_closed:
-      queries_jira['MASEMP / TODAS / CLOSED FROM DATE']={
-        "file": "{}_closed_from_date".format(prefix),
-        "raw": "{}_closed_from_date".format(raw_prefix),
-        "query": 'project = MASEMP AND issuetype in standardIssueTypes() AND resolved >= {} AND resolved <= {} ORDER BY createdDate DESC, resolution DESC'.format(from_date, to_date)}
-
-    if flag_get_cableops:
-      queries_jira['MASEMP / CO / OPEN FROM DATE']={
-        "file": "{}_CO_open_from_date".format(prefix),
-        "raw": "{}_CO_open_from_date".format(raw_prefix),
-        "query": 'project = MASEMP AND cf[11146] IN ("ATENCION OPERADORES", "SOPORTE OPERADORES") AND created >= {} AND created <= {} ORDER BY createdDate DESC, resolution DESC'.format(from_date, to_date)}
-        # "query": 'project = MASEMP AND Segmento = "Cableoperador" AND created >= {} AND created <= {} ORDER BY createdDate DESC, resolution DESC'.format(from_date, to_date)}
-
-    if flag_get_webcable:
-      queries_jira['MASEMP / WEB / OPEN FROM DATE']={
-        "file": "{}_WEB_open_from_date".format(prefix),
-        "raw": "{}_WEB_open_from_date".format(raw_prefix),
-        "query": 'project = MASEMP AND reporter = "web.cable" AND created >= {} AND created <= {} ORDER BY createdDate DESC, resolution DESC'.format(from_date, to_date)}
-
-    if flag_get_masivas_red:
-      queries_jira['MASIVAS / RED / OPENED FROM DATE']={
-        "file": "{}_IDR_opened_from_date".format(prefix),
-        "raw": "{}_IDR_opened_from_date".format(raw_prefix),
-        "query": 'project = "Incidencias de Red" AND resolved >= {} AND resolved <= {} ORDER BY createdDate DESC, resolution DESC'.format(from_date, to_date)}
-
-    if flag_get_masivas_sist:
-      queries_jira['MASIVAS / SISTEMAS / OPENED FROM DATE']={
-        "file": "{}_IDR_opened_from_date".format(prefix),
-        "raw": "{}_IDR_opened_from_date".format(raw_prefix),
-        "query": 'project = "Incidencias Masivas" AND resolved >= {} AND resolved <= {} ORDER BY createdDate DESC, resolution DESC'.format(from_date, to_date)}
+    queries_jira['DEMANDA / EMP / OPENED FROM DATE']={
+        "file": "{}_DEM_EMP_opened_from_date".format(prefix),
+        "raw": "{}_DEM_EMP_opened_from_date".format(raw_prefix),
+        "query": 'project in (\
+"Demanda Empresas",\
+"Demanda Negocios",\
+"Demanda Wholesale",\
+"Mantenimiento Operaciones",\
+"PaP",\
+"Mant Operaciones BSS"\
+) AND created >= {} AND created <= {} ORDER BY createdDate DESC, resolution DESC'.format(from_date, to_date)}
 
 #    if False:
 #      queries_jira['MASEMP / INCIDENCIAS RED']={
@@ -679,7 +617,8 @@ def getConfig():
   opts['pp_to_date']   = printable_date( 'to', opts['to_date'] )
   opts['pp_hour'] = printable_hour() if opts['print_hour'] else ''
 
-  opts['jira_url_api']="https://jira.masmovil.com/rest/api/2"
+  # opts['jira_url_api']="https://jira.masmovil.com/rest/api/2"
+  opts['jira_url_api']="https://mmsistemas.atlassian.net/rest/api/2"
   opts['jira_user']="alvaro.paricio"
   opts['jira_passw']="masmovil2017"
 
@@ -691,13 +630,13 @@ def getConfig():
 # ------------------------------------------------------------------
 opts = getConfig()
 now=datetime.now()
-prefix='{}/JIRA_{}_{}{}'.format(
+prefix='{}/DEM_{}_{}{}'.format(
 				opts['out_dir'],
 				opts['pp_from_date'],
 				opts['pp_to_date'],
 				opts['pp_hour']
 				)
-raw_prefix='{}/JIRA_{}_{}{}'.format(
+raw_prefix='{}/DEM_{}_{}{}'.format(
 				opts['raw_dir'],
 				opts['pp_from_date'],
 				opts['pp_to_date'],

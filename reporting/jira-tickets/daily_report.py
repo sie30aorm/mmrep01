@@ -31,6 +31,14 @@ label_tecnologia='Tecnologia (Servicio) inicial'
 label_dpto_destino='Departamento destino'
 label_dpto_origen='Departamento Origen'
 
+segmento_por_cola = {
+  'Atencion Al Cliente - ACTIVACIONES OPERADORES':'CABLEOP',
+  'Atencion Al Cliente - ATENCION EMPRESAS':'EMPRESAS',
+  'Atencion Al Cliente - ATENCION OPERADORES':'CABLEOP',
+  'Atencion Al Cliente - SOPORTE EMPRESAS':'EMPRESAS',
+  'Atencion Al Cliente - SOPORTE OPERADORES':'CABLEOP'
+}
+
 nivel_servicio={
   'Atencion Al Cliente':'N1',
   'Atencion Al Cliente - ACTIVACIONES OPERADORES':'N2',
@@ -70,13 +78,21 @@ tipo_inc_por_tech = {
   'ENDPOINT':'VOZ',
   'MERCURIO':'VOZ',
   'TRUNKSIP':'VOZ',
+  'Flexiconferencia':'VOZ',
+  'RED INTELIGENTE':'VOZ',
   'VOZ':'VOZ',
+  'MAIL':'SVA',
   'MOVIL':'MOVIL',
   'FAX TO EMAIL':'SVA',
+  'FAX TO MAIL':'SVA',
   'MSO365':'SVA',
   'SVAs':'SVA',
   'SVA':'SVA',
-  'CLOUD':'OTROS'
+  'HOSTING COMPARTIDO':'CPD',
+  'HOSTING DEDICADO':'CPD',
+  'SERVIDORES VIRTUALES':'CPD',
+  'CO':'CPD',
+  'CLOUD':'CPD'
 }
 
 pp = pprint.PrettyPrinter(indent=3)
@@ -185,7 +201,10 @@ def jira_replace_headers(df):
 is_blank = re.compile('\s*')
 def set_workdone( row ):
     val = "Solicitud"
-    if not row['issuetype'].lower() == "solicitud":
+    if row['fmt_autoinst_flag'] == "si":
+            val = "Configuracion"
+    else:
+      if not row['issuetype'].lower() == "solicitud":
         aux=row['summary'].lower()
         if  is_blank.match(aux):
             val = "Configuracion" if any(x in aux for x in ["config","instal"]) else "Averia"
@@ -249,8 +268,11 @@ def jira_calculate_columns(df):
     adjust_tipo_inc=lambda x: tipo_inc_por_tech[str(x).upper()] if str(x).upper() in tipo_inc_por_tech else 'OTROS'
     get_canal=lambda x: 'unknown' if not x else x if x in ('web.cable','MasBss') else 'operador'
     check_excepciones=lambda x: '' if not x else 'QUANTIS' if 'quantis' in x.lower() else ''
+    set_autoinst=lambda x: 'no' if str(x) == '0.0' else 'si'
     # df.apply( fix_tipo_incidencia, axis=1 )
-    
+    is_incident_type=lambda x: True if (x.lower() == 'incidencia' or x.lower() == 'issue') else False
+    set_segmento=lambda x: 'UNDEF' if not x in segmento_por_cola else segmento_por_cola[x]
+
     now = datetime.now()
     df['timeval_created']=df['created'].map( time_value )
     df['timeval_updated']=df['updated'].map( time_value )
@@ -271,9 +293,7 @@ def jira_calculate_columns(df):
     df['Duracion']=df['timeval_diff'].map( get_duration )
     df['Sin Actualizar']=df['timeval_unattended'].map( get_duration )
     df['Actualizacion OK']=df['timeval_unattended'].map( get_sla_is_attended )
-    df['Segmento Cliente']=''
-    df['Averia/Config']=''
-    df['Averia/Config']=df.apply( set_workdone, axis=1 )
+    df['Segmento Cliente']=df[label_dpto_origen].map( set_segmento )
     df['Sistema Origen']='jira'
     df['url_issue']=df['key'].map( url_ticket )
     df['Servicio Agrupado']=df[label_tecnologia].map( get_service_grouped )
@@ -284,11 +304,15 @@ def jira_calculate_columns(df):
     df['JIRA-Tecnologia (Servicio)']=df[label_tecnologia]
     df['fmt_canal']=df['reporter'].map( get_canal )
     df['fmt_excepciones']=df['Nombre de cliente'].map( check_excepciones )
+    df['fmt_autoinst_time']=df['Tiempo [h] en Configuracion y Autoinstalables']
+    df['fmt_autoinst_flag']=df['Tiempo [h] en Configuracion y Autoinstalables'].map( set_autoinst )
+    df['Averia/Config']=''
+    df['Averia/Config']=df.apply( set_workdone, axis=1 )
 
     for index, row in df.iterrows():
       # ---------------------
-      if row['issuetype'] == 'Incidencia':
-        if row['issuetype'].lower() == "incidencia" and "config" in row['Averia/Config'].lower():
+      if ( is_incident_type(row['issuetype']) ):
+        if "config" in row['Averia/Config'].lower():
           row['issuetype'] = "Solicitud"
         #***** ATENCION POSIBLE PUNTO DE FALLO DE DATOS ********
         #implementar el else:
@@ -341,7 +365,7 @@ def jira_calculate_columns(df):
       # ---------------------
       # STEP 1: QUALIFY RIGHT TYPE OF ISSUE
       # ---------------------
-      if row['issuetype'] == 'Incidencia':
+      if is_incident_type(row['issuetype']):
         if 'reclama' in txt:
           df.loc[index,'issuetype'] = '**Reclamacion'
         elif 'factur' in txt:
@@ -357,7 +381,7 @@ def jira_calculate_columns(df):
       # ---------------------
       # STEP 2: FOR INCIDENTS, QUALIFY CAUSE
       # ---------------------
-      if row['issuetype'] == 'Incidencia' and row['Tipo Ticket Incidencia']=='':
+      if is_incident_type(row['issuetype']) and row['Tipo Ticket Incidencia']=='':
         if any(word in txt for word in ['adsl', 'portab']):
           df.loc[index,'Tipo Ticket Incidencia']='**DATOS'
           df.loc[index,label_tecnologia]='**ADSL'
@@ -423,7 +447,9 @@ def jira_extract_and_translate_columns(df):
         'jira_parent_type':'jira_parent_type',
         'jira_parent_relation':'jira_parent_relation',
         'fmt_canal':'fmt_canal',
-        'fmt_excepciones':'fmt_excepciones'
+        'fmt_excepciones':'fmt_excepciones',
+        'fmt_autoinst_flag':'fmt_autoinst_flag',
+        'fmt_autoinst_time':'fmt_autoinst_time'
     }
     order=[
         'issuetype',
@@ -466,7 +492,9 @@ def jira_extract_and_translate_columns(df):
         'jira_parent_type',
         'jira_parent_relation',
         'fmt_canal',
-        'fmt_excepciones'
+        'fmt_excepciones',
+        'fmt_autoinst_flag',
+        'fmt_autoinst_time'
     ]
     print("* Filtering and processing report columns")
     #print("* Extracting columns:"+str(order))
@@ -663,7 +691,8 @@ def getConfig():
 
   opts['jira_url_api']="https://jira.masmovil.com/rest/api/2"
   opts['jira_user']="alvaro.paricio"
-  opts['jira_passw']="masmovil2017"
+  # opts['jira_passw']="masmovil2017"
+  opts['jira_passw']="para.carlos"
 
   print("*** Collect from date: {}".format(opts['from_date']))
   print("*** Collect to   date: {}".format(opts['to_date']))

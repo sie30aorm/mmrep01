@@ -1,5 +1,5 @@
 #=====================================================================
-# REPORTING FROM JIRA
+# REPORITNG FROM JIRA
 #=====================================================================
 # Author: Alvaro Paricio
 #=====================================================================
@@ -18,13 +18,6 @@ jira_req_data=""
 jira_struct={}
 
 opts={}
-
-flag_get_opened=True
-flag_get_closed=True
-flag_get_current=True
-flag_get_cableops=False
-flag_get_webcable=False
-
 flag_verbose=False
 flag_dump_raw=True
 label_tecnologia='Tecnologia (Servicio) inicial'
@@ -144,16 +137,7 @@ def jira_translate_ticket(issue):
                 elif 'name' in v:
                     ticket[label]=v['name']
                 else:
-# CANAL Y SEGMENTO VIENEN ASI:
-# [{'id': '12918', 'self': 'https://jira.masmovil.com/rest/api/2/customFieldOption/12918', 'value': 'Venta directa'}]
-# [{'value': 'N/D', 'id': '12917', 'self': 'https://jira.masmovil.com/rest/api/2/customFieldOption/12917'}]
-                    #if 'customfield' in label:
-                    #  print("--> LABEL: "+jira_struct['custom'][label])
-                    #print(v)
-                    if isinstance(v,list) and len(v) == 1 and isinstance(v[0],dict) and 'value' in v[0]:
-                      ticket[label]=v[0]['value']
-                    else:
-                      ticket[label]=''
+                    ticket[label]=''
                 if 'child' in v:
                     child = v['child']
                     if isinstance(child,(list, tuple, dict)):
@@ -539,74 +523,64 @@ def generate_report(prefix, raw_prefix, from_date, to_date):
     jira_get_fields()
     
     queries_jira= {}
-#    if False:
-#      queries_jira['MASEMP / SOLICITUDES / ABIERTAS']={
-#        "file": "b2b_jira_solic_open",
-#        "raw": "b2b_jira_solic_open",
-#        "query": 'project = MASEMP AND issuetype = "Incidencia Cliente" AND status in (CREADA, "In Progress") ORDER BY createdDate DESC, resolution DESC'}
-#      queries_jira['MASEMP / RECLAMACIONES / ABIERTAS']={
-#        "file": "b2b_jira_reclam_open",
-#        "raw": "b2b_jira_reclam_open",
-#        "query": 'project = MASEMP AND issuetype = Reclamacion AND status in (CREADA, "In Progress") ORDER BY createdDate DESC, resolution DESC'}
-#      queries_jira['MASEMP / INCIDENCIAS / ABIERTAS']={
-#        "file": "b2b_jira_incid_open",
-#        "raw": "b2b_jira_incid_open",
-#        "query": 'project = MASEMP AND issuetype = Solicitud AND status in (CREADA, "In Progress") ORDER BY createdDate DESC, resolution DESC'}
-#
-#    if False:
-#      queries_jira['MASEMP / TODAS / ABIERTAS']={
-#        "file": "{}_b2b_jira_all_currently_open".format(prefix),
-#        "raw": "{}_b2b_jira_all_currently_open".format(raw_prefix),
-#        "query": 'project = MASEMP AND status in (CREADA, "In Progress") ORDER BY createdDate DESC, resolution DESC'}
-#      queries_jira['MASEMP / TODAS / OPEN_WEEK']={
-#        "file": "{}_b2b_jira_all_weekly_open".format(prefix),
-#        "raw": "{}_b2b_jira_all_weekly_open".format(raw_prefix),
-#        "query": 'project = MASEMP AND issuetype in standardIssueTypes() AND created >= {} AND created <= {} ORDER BY createdDate DESC, resolution DESC'.format(from_date, to_date)}
-#      queries_jira['MASEMP / TODAS / CLOSED_WEEK']={
-#        "file": "{}_b2b_jira_weekly_closed".format(prefix),
-#        "raw": "{}_b2b_jira_weekly_closed".format(raw_prefix),
-#        "query": 'project = MASEMP AND issuetype in standardIssueTypes() AND resolved >= {} AND resolved <= {} ORDER BY createdDate DESC, resolution DESC'.format(from_date, to_date)}
+    if False:
+      queries_jira['MASEMP / SOLICITUDES / ABIERTAS']={
+        "file": "b2b_jira_solic_open",
+        "raw": "b2b_jira_solic_open",
+        "query": 'project = MASEMP AND issuetype = "Incidencia Cliente" AND status in (CREADA, "In Progress") ORDER BY createdDate DESC, resolution DESC'}
+      queries_jira['MASEMP / RECLAMACIONES / ABIERTAS']={
+        "file": "b2b_jira_reclam_open",
+        "raw": "b2b_jira_reclam_open",
+        "query": 'project = MASEMP AND issuetype = Reclamacion AND status in (CREADA, "In Progress") ORDER BY createdDate DESC, resolution DESC'}
+      queries_jira['MASEMP / INCIDENCIAS / ABIERTAS']={
+        "file": "b2b_jira_incid_open",
+        "raw": "b2b_jira_incid_open",
+        "query": 'project = MASEMP AND issuetype = Solicitud AND status in (CREADA, "In Progress") ORDER BY createdDate DESC, resolution DESC'}
 
+    if False:
+      queries_jira['MASEMP / TODAS / ABIERTAS']={
+        "file": "{}_b2b_jira_all_currently_open".format(prefix),
+        "raw": "{}_b2b_jira_all_currently_open".format(raw_prefix),
+        "query": 'project = MASEMP AND status in (CREADA, "In Progress") ORDER BY createdDate DESC, resolution DESC'}
+      queries_jira['MASEMP / TODAS / OPEN_WEEK']={
+        "file": "{}_b2b_jira_all_weekly_open".format(prefix),
+        "raw": "{}_b2b_jira_all_weekly_open".format(raw_prefix),
+        "query": 'project = MASEMP AND issuetype in standardIssueTypes() AND created >= {} AND created <= {} ORDER BY createdDate DESC, resolution DESC'.format(from_date, to_date)}
+      queries_jira['MASEMP / TODAS / CLOSED_WEEK']={
+        "file": "{}_b2b_jira_weekly_closed".format(prefix),
+        "raw": "{}_b2b_jira_weekly_closed".format(raw_prefix),
+        "query": 'project = MASEMP AND issuetype in standardIssueTypes() AND resolved >= {} AND resolved <= {} ORDER BY createdDate DESC, resolution DESC'.format(from_date, to_date)}
 
-    if flag_get_opened:
+    if False:
+#    if True:
       queries_jira['MASEMP / TODAS / OPEN FROM DATE']={
         "file": "{}_open_from_date".format(prefix),
         "raw": "{}_open_from_date".format(raw_prefix),
         "query": 'project = MASEMP AND issuetype in standardIssueTypes() AND created >= {} AND created <= {} ORDER BY createdDate DESC, resolution DESC'.format(from_date, to_date)}
 
-    if flag_get_current:
+    if False:
+#    if True:
       queries_jira['MASEMP / TODAS / CURRENTLY OPEN']={
         "file": "{}_currently_open".format(prefix),
         "raw": "{}_currently_open".format(raw_prefix),
         "query": 'project = MASEMP AND status in (CREADA, "In Progress") ORDER BY createdDate DESC, resolution DESC'}
 
-    if flag_get_closed:
+#    if False:
+    if True:
       queries_jira['MASEMP / TODAS / CLOSED FROM DATE']={
         "file": "{}_closed_from_date".format(prefix),
         "raw": "{}_closed_from_date".format(raw_prefix),
         "query": 'project = MASEMP AND issuetype in standardIssueTypes() AND resolved >= {} AND resolved <= {} ORDER BY createdDate DESC, resolution DESC'.format(from_date, to_date)}
 
-    if flag_get_cableops:
-      queries_jira['MASEMP / CO / OPEN FROM DATE']={
-        "file": "{}_CO_open_from_date".format(prefix),
-        "raw": "{}_CO_open_from_date".format(raw_prefix),
-        "query": 'project = MASEMP AND cf[11146] IN ("ATENCION OPERADORES", "SOPORTE OPERADORES") AND created >= {} AND created <= {} ORDER BY createdDate DESC, resolution DESC'.format(from_date, to_date)}
-
-    if flag_get_webcable:
-      queries_jira['MASEMP / WEB / OPEN FROM DATE']={
-        "file": "{}_WEB_open_from_date".format(prefix),
-        "raw": "{}_WEB_open_from_date".format(raw_prefix),
-        "query": 'project = MASEMP AND reporter = "web.cable" AND created >= {} AND created <= {} ORDER BY createdDate DESC, resolution DESC'.format(from_date, to_date)}
-
-#    if False:
-#      queries_jira['MASEMP / INCIDENCIAS RED']={
-#        "file": "{}_b2b_jira_Q4_REDES".format(prefix),
-#        "raw": "{}_b2b_jira_Q4_REDES".format(raw_prefix),
-#        "query": 'project = MASEMP AND departamento = "Departamento Red" AND created >= {} AND created <= {} ORDER BY createdDate DESC, resolution DESC'.format(from_date, to_date)}
-#      queries_jira['MASEMP / INCIDENCIAS RED']={
-#        "file": "{}_b2b_jira_ano_2016".format(prefix),
-#        "raw": "{}_b2b_jira_ano_2016".format(raw_prefix),
-#        "query": 'project = MASEMP AND created >= {} AND created <= {} ORDER BY createdDate DESC, resolution DESC'.format(from_date, to_date)}
+    if False:
+      queries_jira['MASEMP / INCIDENCIAS RED']={
+        "file": "{}_b2b_jira_Q4_REDES".format(prefix),
+        "raw": "{}_b2b_jira_Q4_REDES".format(raw_prefix),
+        "query": 'project = MASEMP AND departamento = "Departamento Red" AND created >= {} AND created <= {} ORDER BY createdDate DESC, resolution DESC'.format(from_date, to_date)}
+      queries_jira['MASEMP / INCIDENCIAS RED']={
+        "file": "{}_b2b_jira_ano_2016".format(prefix),
+        "raw": "{}_b2b_jira_ano_2016".format(raw_prefix),
+        "query": 'project = MASEMP AND created >= {} AND created <= {} ORDER BY createdDate DESC, resolution DESC'.format(from_date, to_date)}
 
     for i in queries_jira:
         issues = jira_query(i, queries_jira[i])

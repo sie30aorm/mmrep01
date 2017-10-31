@@ -1,5 +1,5 @@
 #=====================================================================
-# REPORTING FROM JIRA
+# REPORITNG FROM JIRA
 #=====================================================================
 # Author: Alvaro Paricio
 #=====================================================================
@@ -19,11 +19,13 @@ jira_struct={}
 
 opts={}
 
-flag_get_opened=True
-flag_get_closed=True
-flag_get_current=True
+flag_get_opened=False
+flag_get_closed=False
+flag_get_current=False
 flag_get_cableops=False
 flag_get_webcable=False
+flag_get_masivas_red=True
+flag_get_masivas_sist=True
 
 flag_verbose=False
 flag_dump_raw=True
@@ -597,6 +599,18 @@ def generate_report(prefix, raw_prefix, from_date, to_date):
         "file": "{}_WEB_open_from_date".format(prefix),
         "raw": "{}_WEB_open_from_date".format(raw_prefix),
         "query": 'project = MASEMP AND reporter = "web.cable" AND created >= {} AND created <= {} ORDER BY createdDate DESC, resolution DESC'.format(from_date, to_date)}
+
+    if flag_get_masivas_red:
+      queries_jira['MASIVAS / RED / OPENED FROM DATE']={
+        "file": "{}_IDR_opened_from_date".format(prefix),
+        "raw": "{}_IDR_opened_from_date".format(raw_prefix),
+        "query": 'project = "Incidencias de Red" AND resolved >= {} AND resolved <= {} ORDER BY createdDate DESC, resolution DESC'.format(from_date, to_date)}
+
+    if flag_get_masivas_sist:
+      queries_jira['MASIVAS / SISTEMAS / OPENED FROM DATE']={
+        "file": "{}_IDR_opened_from_date".format(prefix),
+        "raw": "{}_IDR_opened_from_date".format(raw_prefix),
+        "query": 'project = "Incidencias Masivas" AND resolved >= {} AND resolved <= {} ORDER BY createdDate DESC, resolution DESC'.format(from_date, to_date)}
 
 #    if False:
 #      queries_jira['MASEMP / INCIDENCIAS RED']={

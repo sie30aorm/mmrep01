@@ -7,7 +7,9 @@ PURECLOUD_PLATFORM="mypurecloud.com"
 # EU
 PURECLOUD_PLATFORM="mypurecloud.ie"
 
-SERVICE_URI='https://api.{}/api/v2/analytics/reporting/metadata'.format( PURECLOUD_PLATFORM )
+SERVICE_URI='https://api.{}/api/v2/routing/email/domains'.format( PURECLOUD_PLATFORM )
+SERVICE_URI='https://api.{}/api/v2/authorization/roles'.format( PURECLOUD_PLATFORM )
+SERVICE_URI='https://api.{}/api/v2/analytics/conversations/details/query'.format( PURECLOUD_PLATFORM )
 
 #logging.basicConfig(level=logging.DEBUG)
 
@@ -15,8 +17,10 @@ print('-----------------------------------------------')
 print('- PureCloud Python Client Example -')
 print('-----------------------------------------------')
 
+# Always fixed
 clientId = '5b67c4a7-4547-4f9b-9fb0-9f01c35e5ef1'
-clientSecret = 'O6zP_WQmEo66ngJNcfR5JTY2MgfQf6msPl9Het-Mzyw'
+# Updated : 19/05/2017
+clientSecret = 'rjBdhbCCl9Vw6zWCedx4lpb6mAuquHtZohh4Akv4pnw'
 
 requestBody = {
 	'grant_type': 'client_credentials'
@@ -41,17 +45,70 @@ responseJson = response.json()
 
 # Prepare for GET /api/v2/authorization/roles request
 requestHeaders = {
-	'Authorization': responseJson['token_type'] + ' ' + responseJson['access_token']
+   'Authorization': responseJson['token_type'] + ' ' + responseJson['access_token'],
+  'pageSize': 100
 }
 #print( requestHeaders )
 
+post_data='''
+{
+  "interval": "2017-05-19:00:00.000Z/2017-05-19T15:00:00.000Z",
+  "segmentFilters": [
+    {
+      "type": "or",
+      "predicates": [
+        {
+          "dimension": "purpose",
+          "value": "agent"
+        },
+        {
+          "dimension": "wrapUpCode",
+          "operator": "exists"
+        },
+        {
+          "metric": "tSegmentDuration",
+          "range": {
+                "gt": 3000,
+                "lte": 60000
+            }
+        },
+        {
+          "propertyType": "uuid",
+          "property": "recordingId",
+          "value": "1cd6540e-b570-4426-acdc-71f65d1eb569"
+        }
+      ],
+      "aggregations": [
+        {
+          "type": "termFrequency",
+          "dimension": "wrapUpCode",
+          "size": 10
+        }
+      ]
+    }
+  ]
+}
+'''
+
+post_data='''
+{
+ "interval": "2017-05-18T22:00:00.000Z/2017-05-19T22:00:00.000Z",
+ "order": "asc",
+ "orderBy": "conversationStart",
+ "paging": {
+  "pageSize": 25,
+  "pageNumber": 1
+ }
+}
+'''
 # Get roles
-response = requests.get(SERVICE_URI, headers=requestHeaders)
+response = requests.post(SERVICE_URI, headers=requestHeaders, data=post_data)
 
 # Check response
 if response.status_code == 200:
 	print('Got roles')
 else:
+	print(response)
 	print('Failure: ' + str(response.status_code) + ' - ' + response.reason)
 	sys.exit(response.status_code)
 

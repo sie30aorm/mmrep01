@@ -17,8 +17,10 @@ print('-----------------------------------------------')
 print('- PureCloud Python Client Example -')
 print('-----------------------------------------------')
 
+# Always fixed
 clientId = '5b67c4a7-4547-4f9b-9fb0-9f01c35e5ef1'
-clientSecret = 'O6zP_WQmEo66ngJNcfR5JTY2MgfQf6msPl9Het-Mzyw'
+# Updated : 19/05/2017
+clientSecret = 'rjBdhbCCl9Vw6zWCedx4lpb6mAuquHtZohh4Akv4pnw'
 
 requestBody = {
 	'grant_type': 'client_credentials'

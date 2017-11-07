@@ -691,8 +691,8 @@ def getConfig():
 
   opts['jira_url_api']="https://jira.masmovil.com/rest/api/2"
   opts['jira_user']="alvaro.paricio"
-  # opts['jira_passw']="masmovil2017"
-  opts['jira_passw']="para.carlos"
+  opts['jira_passw']="masmovil2017"
+  # opts['jira_passw']="para.carlos"
 
   print("*** Collect from date: {}".format(opts['from_date']))
   print("*** Collect to   date: {}".format(opts['to_date']))

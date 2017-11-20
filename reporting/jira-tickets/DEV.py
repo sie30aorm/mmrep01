@@ -384,6 +384,14 @@ def jira_calculate_columns(df):
         elif 'corre' in txt:
           df.loc[index,'Tipo Ticket Incidencia']='**OTROS'
           df.loc[index,label_tecnologia]='**EMAIL'
+      # ---------------------
+      # STEP 3: TRANSLATE TO INT ANY TIMES MEASURE
+      # ---------------------
+      # XXXXXXXXXXXXXXXXXXXXXX
+      for k, v in row.iteritems():
+        if "tiempo" in k.lower():
+          v2 = "{}".format(v).replace('.', ',')
+          # print( "{}: {} --> {} ".format( k, v, v2 ))
 
 # ------------------------------------------------------------------
 def jira_extract_and_translate_columns(df):
@@ -681,6 +689,7 @@ def getConfig():
 
   opts['jira_url_api']="https://jira.masmovil.com/rest/api/2"
   opts['jira_user']="alvaro.paricio"
+  opts['jira_passw']="para.carlos"
   opts['jira_passw']="masmovil2017"
 
   print("*** Collect from date: {}".format(opts['from_date']))

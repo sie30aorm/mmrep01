@@ -190,7 +190,10 @@ def jira_replace_headers(df):
     #print(df.columns)
     for i in df.columns:
         if 'customfield' in i:
-            label=jira_struct['custom'][i]
+            if i in jira_struct['custom']:
+              label=jira_struct['custom'][i]
+            else:
+              label=i
         else:
             #label=jira_struct['standard'][i]
             label=i
@@ -403,6 +406,21 @@ def jira_calculate_columns(df):
         elif 'corre' in txt:
           df.loc[index,'Tipo Ticket Incidencia']='**OTROS'
           df.loc[index,label_tecnologia]='**EMAIL'
+      # ---------------------
+      # STEP 3: TRANSLATE TO INT ANY TIMES MEASURE
+      # ---------------------
+      # XXXXXXXXXXXXXXXXXXXXXX
+      for k, v in row.iteritems():
+        if "TMR (" in k:
+          df.loc[index,k] = "{}".format(v).replace('.', ',')
+        if "tiempo" in k.lower():
+          df.loc[index,k] = "{}".format(v).replace('.', ',')
+          # print( "{}: {} --> {} ".format( k, v, v2 ))
+        if "escalado a" in k.lower():
+          df.loc[index,k] = '' if v=='0.0' else '1'
+        if "de escalados en" in k.lower():
+          df.loc[index,k] = "{}".format(v).replace('.', ',')
+
 
 # ------------------------------------------------------------------
 def jira_extract_and_translate_columns(df):

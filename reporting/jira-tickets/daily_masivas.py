@@ -618,10 +618,10 @@ def getConfig():
   opts['pp_hour'] = printable_hour() if opts['print_hour'] else ''
 
   opts['jira_url_api']="https://jira.masmovil.com/rest/api/2"
-  opts['jira_user']="alvaro.paricio"
-  opts['jira_passw']="masmovil2017"
   opts['jira_user']="monitor.b2b"
   opts['jira_passw']="C100-c4n0n4s"
+  opts['jira_user']="alvaro.paricio"
+  opts['jira_passw']="masmovil2017"
 
   print("*** Collect from date: {}".format(opts['from_date']))
   print("*** Collect to   date: {}".format(opts['to_date']))
